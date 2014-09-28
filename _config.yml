@@ -1,0 +1,19 @@
+#timezone: America/Los_Angeles
+
+# Where things are (DEFAULTS):
+# source:       .
+# destination:  ./_site
+# plugins:      ./_plugins
+# layouts:      ./_layouts
+# data_source:  ./_data
+# collections:  null
+#
+# Tabs aligned in vim with tabular: "^.*: "
+
+#default:
+    #scope:
+        #path: ""
+    #values:
+        #author: "San Diego City Robotics"
+        #category: 
+
