@@ -1,19 +1,20 @@
 ---
-layout: post
+layout: page
 title: "Git Introduction"
-description: "An introduction to the Git SCM tool and Github service."
+description: "An introduction to the Git SCM tool and Github web service."
 tagline: "Source control management tool"
-category: git
-tags: [learning, intro, git, github]
+author: Nils Olsson
 ---
 {% include JB/setup %}
+
+[Previous page](../learning-index.html)
 
 This introduction will go over what Git and Github are and why we as a team chose to use them.
 Further articles on Git and Github will go over _how_ to use these tools. Git is a fundamental tool to this team, just as fundamental as Solidworks is to the mechanical. Those who are interested in software development or interested in developing this website, you'll need to know Git.
 
 ## What is Git?
 
-Directly from the [git-scm](www.git-scm.com) website...
+Directly from the [Git](www.git-scm.com) homepage:
 
 > Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 > 

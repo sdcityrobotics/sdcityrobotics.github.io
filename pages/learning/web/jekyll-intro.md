@@ -1,14 +1,16 @@
 ---
-layout: post
+layout: page
 title: "Jekyll Introduction"
 description: "An introduction to the Jekyll static website engine."
-category: jekyll
 tagline: "Static website engine"
-tags: [learning, intro, jekyll, tutorial]
 ---
 {% include JB/setup %}
 
-This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
+[Previous page](../learning-index.html)
+
+*(Default post that comes with Jekyll bootstrap, converted to a page)*
+
+This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it.
 Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 
 ## Overview

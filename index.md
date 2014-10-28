@@ -1,25 +1,15 @@
 ---
 layout: page
 title: San Diego City Robotics
-tagline: Welcome!
 ---
 {% include JB/setup %}
 
-Welcome to the in-development San Diego City Robotics club website hosted via [GitHub Pages](https://pages.github.com) and built with [Jekyll](http://jekyllrb.com/) and [Jekyll Bootstrap](http://jekyllbootstrap.com/).
+Welcome to the (in-development) San Diego City Robotics homepage. This site is hosted via [GitHub Pages](https://pages.github.com) and built with [Jekyll](http://jekyllrb.com/) and [Jekyll Bootstrap](http://jekyllbootstrap.com/).
 
-Club meetings are held from 9:30am - 12:05pm at San Diego City College room T-214 in Downtown San Diego.
+Meetings are held on Fridays weekly from 9:30 AM to 12:05 PM, on the San Diego City College campus in Downtown San Diego, room T-214 (the technology incubator building).
 
-## Learning Articles
+### Last Post: [{{ site.posts.last.title }}]({{ site.posts.last.url }})
 
-### Git
-<ul>
-{% assign pages_list = site.categories.git %}
-{% include JB/pages_list %}
-</ul>
+### [Learning](pages/learning/learning-index.html)
 
-### Jekyll
-<ul>
-{% assign pages_list = site.categories.jekyll %}
-{% include JB/pages_list %}
-</ul>
-
+### [Making This Site](pages/making-this-site.html)
