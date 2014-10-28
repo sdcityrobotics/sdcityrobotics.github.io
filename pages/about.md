@@ -14,12 +14,12 @@ author: Nils Olsson
   #map-container {
     background-size: cover;
     height: 0;
-    width: 100;
+    width: 100%;
     padding-bottom: 56.25%; /* 16:9 */
     
   #map {
+    height 100%;
     width 100%;
-    height 450px;
     frameborder: 0;
     border: 0;
   }
