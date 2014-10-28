@@ -14,12 +14,19 @@ html, body, #wrap, #column, #background {
 	color: $text-color1;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	color: $text-color2;
 }
 
-.navbar-default .navbar-brand {
-	color: $text-color2;
+#logo {
+	width: 32px;
+	height: 32px;
+}
+
+.navbar-brand {
+	position: absolute;
+	top: 0;
+	transform: translateY(-50%);
 }
 
 #page-content, #post-content, #column {
