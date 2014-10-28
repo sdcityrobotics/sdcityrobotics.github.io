@@ -59,10 +59,25 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="{{ HOME_PATH }}">
-                <!-- Logo -->
-                <img alt="SDCR Logo" src="{{ ASSET_PATH }}/img/sdcr_logo.png"
-                style="position: relative; width: 32px; transform: translateY(-50%);" />
-                {{ site.title }}
+                <!-- Logo and Title  -->
+                <div class="title-div">
+                    <img id="logo" alt="SDCR Logo" src="{{ ASSET_PATH }}/img/sdcr_logo.png" />
+                </div>
+                <div class="title-div">
+                    {{ site.title }}
+                </div>
+                <style>
+                    .title-div {
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                    }
+                    
+                    #logo {
+                        width: 32px;
+                        height: 32px;
+                    }
+                </style>
                 </a>
             </div>
 
