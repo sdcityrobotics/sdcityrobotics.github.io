@@ -8,8 +8,11 @@ Welcome to the (in-development) San Diego City Robotics homepage. This site is h
 
 Meetings are held on Fridays weekly from 9:30 AM to 12:05 PM, on the San Diego City College campus in Downtown San Diego, room T-214 (the technology incubator building).
 
-### Last Post: [{{ site.posts.last.title }}]({{ site.posts.last.url }})
+## Last Post: [{{ site.posts.last.title }}]({{ site.posts.last.url }})
 
-### [Learning](pages/learning/learning-index.html)
+### Site Links
+- [Learning articles index](pages/learning/learning-index.html)
 
-### [Making This Site](pages/making-this-site.html)
+### Articles
+- [About SDCR](pages/about.html)
+- [Making This Site](pages/making-this-site.html)
