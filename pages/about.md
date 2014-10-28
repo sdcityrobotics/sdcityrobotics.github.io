@@ -1,12 +1,10 @@
 ---
 layout: page
 title: About SDCR
-tagline: Who we are
+tagline: Who are we?
 author: Nils Olsson
 ---
 {% include JB/setup %}
-
-[Previous page](..)
 
 <!-- Google Map embed -->
 <div id="map">
@@ -16,6 +14,7 @@ author: Nils Olsson
   #map {
     background-size: cover;
     height: 0;
+    width: 100;
     padding-bottom: 56.25%; /* 16:9 */
   }
 </style>
