@@ -18,12 +18,12 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	color: $text-color2;
 }
 
-#page-content, #post-content, #column {
-	// border: 1px dashed white;
-}
-
 .navbar {
 	margin-bottom: 0;
+}
+
+.navbar-brand {
+	transform: translateY(-10px);
 }
 
 #wrap {
