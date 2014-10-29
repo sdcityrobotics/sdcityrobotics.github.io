@@ -5,6 +5,7 @@ description: "Club update for Friday 22nd, October, 2014"
 category: blog
 tags: [blog, update]
 ---
+{% include JB/setup %}
 
 ## Club Website discussion
 

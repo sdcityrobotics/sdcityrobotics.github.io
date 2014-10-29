@@ -24,6 +24,8 @@ dynamic components such as templates, partials, liquid code, markdown, etc. Jeky
 
 This website is created with Jekyll. [Other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites).
 
+
+
 ### What does Jekyll Do?
 
 Jekyll is a ruby gem you install on your local system.
