@@ -1,8 +1,2 @@
-Sources
-=======
-
-Images & Photography
---------------------
-
-[Jonathan's Friend](http://www.lennoxvuphotography.com/portfolio/adventures/)
+This directory is for theme related content including source files (Markdown, HTML, SCSS, CSS, etc.) and common media files (backgrounds, logos, etc.).
 
