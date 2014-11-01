@@ -84,17 +84,15 @@
         <div id="column" class="container">
             {{ content }}
         </div>
+        <div id="footer">
+            <div class="container">
+                <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+                with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+                and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+                </p>
+            </div>
+        </div>
     </div>
-    <!--
-    <div id="footer">
-        <div class="container">
-            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-            with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-            and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-            </p>
-        </div>a
-    </div>
-    -->
 {% include JB/analytics %}
 
 <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->

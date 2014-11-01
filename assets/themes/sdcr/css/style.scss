@@ -25,10 +25,12 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 #wrap {
 	position: relative;
 	width: 100%;
+	margin-bottom: 20px;
 	//min-height: calc(100vh - 52px);
 }
 
-#column {
+// Default container rules
+.container {
 	// position: absolute;
 	//min-height: calc(100vh - 52px);
 	background:rgba(255,255,255,0.85);
@@ -40,8 +42,9 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	padding-right: 20px;
 }
 
+// Responsive rule: medium form (phone)
 @media (min-width: 520px) {
-	#column {
+	.container {
 		width: 520px;
 		padding-top: 40px;
 		padding-left: 40px;
@@ -49,8 +52,9 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	}
 }
 
+// Responsive rule: medium form (tablet)
 @media (min-width: 760px) {
-	#column {
+	.container {
 		width: 700px;
 	}
 
@@ -68,8 +72,9 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	}
 }
 
+// Responsive rule: large form (desktop monitor)
 @media (min-width: 980px) {
-	#column {
+	.container {
 		width: 900px;
 	}
 }
