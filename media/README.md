@@ -1,0 +1,1 @@
+This directory is for media files (photos, videos, etc.) to be collated into a single media page.
