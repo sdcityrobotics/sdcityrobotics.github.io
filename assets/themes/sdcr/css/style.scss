@@ -71,6 +71,17 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 		padding-left: 40px;
 		padding-right: 40px;
 	}
+	.element {
+    /* set border styling */
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+
+    /* set border roundness */
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
 }
 
 // Responsive rule: medium form (tablet)
@@ -91,6 +102,17 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 		opacity: 1.00;
 		z-index: -1;
 	}
+	.element {
+    /* set border styling */
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+
+    /* set border roundness */
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
 }
 
 // Responsive rule: large form (desktop monitor)
