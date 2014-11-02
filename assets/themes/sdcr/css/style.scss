@@ -25,9 +25,6 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	position: relative;
 	width: 100%;
 	margin-bottom: 20px;
-	border-style: solid;
-    	border-width: 15px;
-    	border-color: black;
 	//min-height: calc(100vh - 52px);
 }
 
@@ -85,7 +82,7 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 .page-header {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #333;
+	border-bottom: 100px solid #333;
 }
 
 /* tag_box */
