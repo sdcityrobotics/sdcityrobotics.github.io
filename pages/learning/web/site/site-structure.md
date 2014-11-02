@@ -7,6 +7,7 @@ author: Nils Olsson
 ---
 {% include JB/setup %}
 
+Site structure
 
 ### \_includes
 This folder contains partial content or code to be *included* by other files. Currently this folder houses all of the Jekyll Bootstrap templating elements and theme HTML layouts.
