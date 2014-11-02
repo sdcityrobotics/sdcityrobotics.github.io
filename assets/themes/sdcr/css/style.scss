@@ -5,8 +5,30 @@ $text-color1: #222;
 $text-color2: #3f4a75;
 // $background-color: #fff;
 $background-image: url("../img/sd01.jpg");
+.element {
+    /* set border styling */
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+
+    /* set border roundness */
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
 
 html, body {
+	.element {
+    /* set border styling */
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+
+    /* set border roundness */
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
 	// background-color: black;
 }
 
@@ -82,7 +104,7 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 .page-header {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	border-bottom: 100px solid #333;
+	border-bottom: 1px solid #333;
 }
 
 /* tag_box */
