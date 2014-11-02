@@ -4,11 +4,11 @@
 $text-color1: #222;
 $text-color2: #3f4a75;
 html {
-background-image: url("../img/sd01.jpg");
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: 100% 100%;
+$background-image: url("../img/sd01.jpg");
+$-webkit-background-size: cover;
+$-moz-background-size: cover;
+$-o-background-size: cover;
+$background-size: 100% 100%;
 }
 
 // $background-color: #fff;
