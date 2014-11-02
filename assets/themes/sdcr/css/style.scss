@@ -26,32 +26,10 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	width: 100%;
 	margin-bottom: 20px;
 	//min-height: calc(100vh - 52px);
-.element {
-    /* set border styling */
-    border-color: black;
-    border-style: solid;
-    border-width: 10px;
-
-    /* set border roundness */
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-}
 }
 
 // Default container rules
 .container {
-.element {
-    /* set border styling */
-    border-color: black;
-    border-style: solid;
-    border-width: 10px;
-
-    /* set border roundness */
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-}
 	// position: absolute;
 	//min-height: calc(100vh - 52px);
 	background:rgba(255,255,255,0.85);
@@ -71,6 +49,13 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 		padding-left: 40px;
 		padding-right: 40px;
 	}
+
+}
+
+// Responsive rule: medium form (tablet)
+@media (min-width: 760px) {
+	.container {
+		width: 700px;
 	.element {
     /* set border styling */
     border-color: black;
@@ -82,12 +67,6 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
 }
-}
-
-// Responsive rule: medium form (tablet)
-@media (min-width: 760px) {
-	.container {
-		width: 700px;
 	}
 
 	body:after {
@@ -102,17 +81,6 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 		opacity: 1.00;
 		z-index: -1;
 	}
-	.element {
-    /* set border styling */
-    border-color: black;
-    border-style: solid;
-    border-width: 10px;
-
-    /* set border roundness */
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-}
 }
 
 // Responsive rule: large form (desktop monitor)
