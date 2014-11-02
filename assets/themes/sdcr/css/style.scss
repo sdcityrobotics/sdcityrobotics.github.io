@@ -4,8 +4,10 @@
 $text-color1: #222;
 $text-color2: #3f4a75;
 $background-image: url("../img/sd01.jpg");
-$background-repeat: no-repeat;
-$background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 
 // $background-color: #fff;
 
