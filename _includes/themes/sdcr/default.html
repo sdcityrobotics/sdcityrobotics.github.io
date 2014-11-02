@@ -79,20 +79,18 @@
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
             -->
-            </div><!-- /.navbar-collapse -->
+            </div> <!-- /.navbar-collapse -->
         </nav>
         <div id="column" class="container">
             {{ content }}
         </div>
-         
     </div>
-    <div id="footer">
-            <div class="footercontainer">
-                <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-                with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-                and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-                </p>
-            </div>
+    <div id="footer" class="container">
+        <p>
+            &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+            with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+            and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
      </div>
 {% include JB/analytics %}
 
