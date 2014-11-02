@@ -21,46 +21,30 @@ html, body, #wrap, #column, #background {
 	color: $text-color1;
 }
 
+// Blue titles
 h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	color: $text-color2;
-}
-
-.navbar {
-	//margin-bottom: 0;
 }
 
 #wrap {
 	position: relative;
 	width: 100%;
-	// margin-bottom: 20px;
-	//min-height: calc(100vh - 52px);
 }
 
 // Default container rules
 .container {
-	// position: absolute;
-	//min-height: calc(100vh - 52px);
-	background:rgba(255,255,255,0.85);
-	// background:rgba(0,0,0,0.85);
-	border: 1px solid black;
+	background: rgba(255,255,255,0.85);
+	border: 4px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 5px rgba(0, 0, 0, 0.075);
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
-.footercontainer {
-	position: relative;
-	width: 100%;
-	background:rgba(255,255,255,0.85);
-	border: 1px solid black;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-top: 100px;
+
+#footer {
+	margin-top: 50%;
 }
 
 // Responsive rule: medium form (phone)
@@ -97,9 +81,6 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 // Responsive rule: large form (desktop monitor)
 @media (min-width: 980px) {
 	.container {
-		width: 900px;
-	}
-	.footercontainer{
 		width: 900px;
 	}
 }
