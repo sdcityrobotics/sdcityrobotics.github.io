@@ -25,6 +25,9 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	position: relative;
 	width: 100%;
 	margin-bottom: 20px;
+	border-style: solid;
+    	border-width: 15px;
+    	border-color: black;
 	//min-height: calc(100vh - 52px);
 }
 
@@ -68,9 +71,6 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 		background: $background-image no-repeat center center fixed;
 		background-size: cover;
 		opacity: 1.00;
-		border-style: solid;
-    		border-width: 15px;
-    		border-color: black;
 		z-index: -1;
 	}
 }
