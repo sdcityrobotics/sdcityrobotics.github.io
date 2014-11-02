@@ -3,7 +3,7 @@
 
 $text-color1: #222;
 $text-color2: #3f4a75;
-$background-image: url("../img/sd01.jpg");
+//$background-image: url("../img/sd01.jpg");
 
 // $background-color: #fff;
 
@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	position: relative;
 	width: 100%;
 	// margin-bottom: 20px;
+	background-image: url("../img/sd01.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	//min-height: calc(100vh - 52px);
