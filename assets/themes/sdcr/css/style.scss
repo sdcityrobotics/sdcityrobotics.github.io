@@ -56,17 +56,6 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 @media (min-width: 760px) {
 	.container {
 		width: 700px;
-	.element {
-    /* set border styling */
-    border-color: black;
-    border-style: solid;
-    border-width: 10px;
-
-    /* set border roundness */
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-}
 	}
 
 	body:after {
@@ -79,6 +68,9 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 		background: $background-image no-repeat center center fixed;
 		background-size: cover;
 		opacity: 1.00;
+		border-style: solid;
+    		border-width: 15px;
+    		border-color: black;
 		z-index: -1;
 	}
 }
