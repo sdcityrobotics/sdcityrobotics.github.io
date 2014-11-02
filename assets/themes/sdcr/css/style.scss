@@ -40,6 +40,10 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	padding-left: 20px;
 	padding-right: 20px;
 	border: 10px solid #000000;
+.round {border-radius: 15px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+}
 }
 
 // Responsive rule: medium form (phone)
