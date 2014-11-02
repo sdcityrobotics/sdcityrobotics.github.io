@@ -14,8 +14,9 @@ Index for all SDCR learning articles.
 ## Web
 
 ### Maintaining This Website
-1. [Introduction](web/site/1-intro.html)
-2. [Structure](web/site/2-structure.html)
+1. [Introduction](web/site/intro.html)
+2. [The site structure](web/site/structure.html)
+3. [Writing in Markdown](web/site/writing-in-markdown.html)
 
 ### Jekyll
 - [Introduction](web/jekyll/jekyll-intro.html)
