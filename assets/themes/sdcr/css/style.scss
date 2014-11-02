@@ -24,8 +24,6 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 #wrap {
 	position: relative;
 	width: 100%;
-	margin-left: 20px;
-	margin-right: 20px;
 	margin-bottom: 20px;
 	//min-height: calc(100vh - 52px);
 }
@@ -41,6 +39,12 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	padding-bottom: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
+.round {
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	
+}
 }
 
 // Responsive rule: medium form (phone)
