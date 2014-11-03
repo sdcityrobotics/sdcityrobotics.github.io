@@ -59,14 +59,23 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
 	border-radius: 0;
 	margin-bottom: 0;
 
-    background-image: linear-gradient(to bottom, #fff 0px, $background-color 100%);
-    background-repeat: repeat-x;
+    .navbar-brand img {
+        margin-top: -13px;
+        margin-bottom: -8px;
+        // margin-top: -15px;
+        // margin-bottom: -15px;
+        // padding-top: -13px;
+        // padding-bottom: -13px;
+    }
 
+    // Navigation bar items
     .navbar-nav li a {
+        // Resize padding and margin for inset shadows
         padding: 5px 10px 5px 10px;
         margin: 10px 5px 10px 5px;
 
-        &:hover {
+        // Inset shadows on hover or active
+        &:hover, &.active {
             border-radius: 4px;
             box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5);
         }
@@ -107,7 +116,7 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
         padding-top: 20px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 20px;
+        margin-bottom: 60px;
         border-top: 0;
 
         p {
@@ -117,7 +126,7 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
 
     // A trick I learned to make a background image
     // transparent (but doesn't need to be transparent)
-    #wrap:after {
+    body:after {
         content: "";
         position: fixed;
         top: 0;

@@ -2,8 +2,8 @@
 layout: post
 title: "Meeting minutes"
 description: "Meeting minutes for Friday the 22nd of October, 2014"
-category: blog
-tags: [blog, update]
+category: minutes
+tags: [minutes]
 ---
 {% include JB/setup %}
 
