@@ -14,12 +14,10 @@ SCSS is a web programming language used the same way as CSS: for styling web-pag
 
 It is actually the reinvention of another CSS preprocessed language and its predecessor, SASS (Syntactically Awesome Style Sheets).
 
-There's a lot to go over in learning the caveats of SCSS, so instead repasting articles look over some of the links in the [references section](#references).
+There's a lot to go over in learning the caveats of SCSS so, instead repasting articles, try looking over some of the links in the [references section](#references).
 
 References<a name="references"></a>
 ----------
 
--   [Language Homepage](http://sass-lang.com/)
--   [The Sass Way](http://thesassway.com/)
-
-    A great reference site with example driven tutorials all separated into different skill levels.
+-   [**Language Homepage**](http://sass-lang.com/)
+-   [**The Sass Way**](http://thesassway.com/) A great reference site with example driven tutorials all separated into different skill levels.
