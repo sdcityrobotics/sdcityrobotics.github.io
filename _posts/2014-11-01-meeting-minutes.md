@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Club update, October 22nd 2014"
-description: "Club update for Friday 22nd, October, 2014"
+title: "Meeting minutes"
+description: "Meeting minutes for Friday the 1st of November, 2014"
 category: blog
 tags: [blog, update, hardware, software]
 ---

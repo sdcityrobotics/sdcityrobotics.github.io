@@ -9,6 +9,8 @@ author: Nils Olsson
 
 Site structure
 
+- Local server does not update with changes to `_config.yml`
+
 ### \_includes
 This folder contains partial content or code to be *included* by other files. Currently this folder houses all of the Jekyll Bootstrap templating elements and theme HTML layouts.
 
