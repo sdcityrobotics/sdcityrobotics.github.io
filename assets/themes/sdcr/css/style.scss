@@ -1,59 +1,93 @@
 ---
 ---
 
-$text-color1: #222;
+/* 
+Here's some SCSS tips and things I've leared:
+
+1. Variables
+    -   Begin with the `$` character
+    -   Are assigned the same was as a CSS property
+2. Element nesting
+    -   If you have container with a style and a sub-element with a style,
+        instead of having separate blocks you can nest the sub-element block
+        within the container block.
+    e.g.:
+        CSS:
+            .container {
+                margin-top: 0;
+            }
+
+            .container p {
+                margin-top: 20px;
+            }
+        SCSS:
+            .container {
+                margin-top: 0;
+
+                p {
+                    margin-top: 20px;
+                }
+            }
+3. Ampersand (&) character
+ */
+
+$text-color1: #444;
 $text-color2: #3f4a75;
+$background-color: #f8f8f8;
 $background-image: url("../img/sd01.jpg");
-$-webkit-background-size: cover;
-$-moz-background-size: cover;
-$-o-background-size: cover;
-$background-size: 100% 100%;
 
-
-// $background-color: #fff;
-
-html, body {
-
-	// background-color: black;
-}
-
-html, body, #wrap, #column, #background {
+// All elements
+* {
 	color: $text-color1;
+	background: 0;
 }
 
 // Blue titles
-h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
+h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-nav li a {
 	color: $text-color2;
 }
 
-#wrap {
-	position: relative;
-	width: 100%;
+// Navigation bar
+.navbar-default {
+	border-radius: 0;
+	margin-bottom: 0;
+
+    .navbar-nav li a {
+        padding: 5px 10px 5px 10px;
+        margin: 10px 5px 10px 5px;
+
+        &:hover {
+            border-radius: 4px;
+            box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5);
+        }
+    }
 }
 
-// Default container rules
+// Container rules
 .container {
-	background: rgba(255,255,255,0.85);
-	border: 4px;
-	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 5px rgba(0, 0, 0, 0.075);
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	background-color: $background-color;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+	padding: 20px 40px 20px 40px;
+	margin-top: 20px;
 }
 
-#footer {
-	margin-top: 50%;
+// Content header
+.page-header {
+	margin-top: 20px;
+	border-bottom: 1px solid #333;
+}
+
+// Footer
+#footer p {
+    margin: 0;
 }
 
 // Responsive rule: medium form (phone)
 @media (min-width: 520px) {
 	.container {
 		width: 520px;
-		padding-top: 40px;
-		padding-left: 40px;
-		padding-right: 40px;
 	}
 
 }
@@ -64,16 +98,18 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 		width: 700px;
 	}
 
-	body:after {
+    // A trick I learned to make a background image
+    // transparent (but doesn't need to be transparent)
+	#wrap:after {
 		content: "";
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
 		background: $background-image no-repeat center center fixed;
 		background-size: cover;
-		opacity: 1.00;
+		// opacity: 0.7;
 		z-index: -1;
 	}
 }
@@ -85,13 +121,7 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
 	}
 }
 
-.page-header {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border-bottom: 1px solid #333;
-}
-
-/* tag_box */
+// Begin post tag styling
 .tag_box {
   list-style: none;
   margin: 0;
@@ -134,3 +164,4 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand {
   border: 1px solid #4c964d;
   color: #FFF;
 }
+// End post tag styling

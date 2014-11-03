@@ -6,13 +6,16 @@ title: San Diego City Robotics
 
 Welcome to the (in-development) San Diego City Robotics homepage. This site is hosted via [GitHub Pages](https://pages.github.com) and built with [Jekyll](http://jekyllrb.com/) and [Jekyll Bootstrap](http://jekyllbootstrap.com/).
 
-Meetings are held on Saturdays weekly from 9:30 AM to 12:05 PM, on the San Diego City College campus in Downtown San Diego, room T-214 (the technology incubator building).
+Meetings are held on **Saturdays** weekly from **9:30 AM to 12:05 PM**, on the San Diego City College campus in Downtown San Diego, room T-214 (the technology incubator building).
 
-## Last Post: [{{ site.posts.last.title }}]({{ site.posts.last.url }})
+{% assign post = site.posts.first %}
 
-### Site Links
-- [Learning articles index](pages/learning/learning-index.html)
+Last Post: [{{ post.title }} ({{ post.date | date: "%B %-d, %Y" }})]({{ post.url }})
+---------------------------------------------
 
-### Articles
-- [About SDCR](pages/about.html)
-- [Making This Site](pages/making-this-site.html)
+Site Links
+----------
+
+- [Learning index]({{ site.url }}/learning)
+- [About SDCR]({{ site.url }}/about.html)
+- [Making This Site]({{ site.url }}/making-this-site.html)
