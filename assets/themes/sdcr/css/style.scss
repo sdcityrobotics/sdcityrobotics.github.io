@@ -2,7 +2,14 @@
 ---
 
 /* 
-Here's some SCSS tips and things I've leared:
+NOTE:
+    Default ==  Smallest screen size +
+                Anything that doesn't change from smallest to largest
+
+    Consider phone screens when setting default styles. If it wouldn't look good
+    on a phone then move it into one of the media-query's (@media).
+
+Here's some SCSS tips and things I've learned:
 
 1. Variables
     -   Begin with the `$` character
@@ -28,29 +35,32 @@ Here's some SCSS tips and things I've leared:
                     margin-top: 20px;
                 }
             }
-3. Ampersand (&) character
- */
+            */
 
-$text-color1: #444;
-$text-color2: #3f4a75;
-$background-color: #f8f8f8;
-$background-image: url("../img/sd01.jpg");
+            $text-color1: #444;
+            $text-color2: #3f4a75;
+            $text-shadow: #ddd;
+            $background-color: #f8f8f8;
+            $background-image: url("../img/sd01.jpg");
 
-// All elements
+// Everything default
 * {
 	color: $text-color1;
-	background: 0;
+    text-shadow: $text-shadow 0 0 2px;
 }
 
-// Blue titles
+// Titles default (Blue)
 h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-nav li a {
 	color: $text-color2;
 }
 
-// Navigation bar
+// Navigation bar default
 .navbar-default {
 	border-radius: 0;
 	margin-bottom: 0;
+
+    background-image: linear-gradient(to bottom, #fff 0px, $background-color 100%);
+    background-repeat: repeat-x;
 
     .navbar-nav li a {
         padding: 5px 10px 5px 10px;
@@ -63,32 +73,62 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
     }
 }
 
-// Container rules
-.container {
-	background-color: $background-color;
-	border: 1px solid #e7e7e7;
-	border-radius: 4px;
-	box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
-	padding: 20px 40px 20px 40px;
-	margin-top: 20px;
-}
-
-// Content header
+// Content header default
 .page-header {
 	margin-top: 20px;
 	border-bottom: 1px solid #333;
 }
 
-// Footer
-#footer p {
-    margin: 0;
+// Footer default
+// 
+#footer {
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px solid #333;
 }
 
 // Responsive rule: medium form (phone)
 @media (min-width: 520px) {
+
+    // Containers (for content and footer)
 	.container {
 		width: 520px;
+        background-color: $background-color;
+        border: 1px solid #e7e7e7;
+        border-radius: 4px;
+        box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+        padding: 20px 40px 20px 40px;
+        margin-top: 20px;
 	}
+
+    // Footer
+    #footer {
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        border-top: 0;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    // A trick I learned to make a background image
+    // transparent (but doesn't need to be transparent)
+    #wrap:after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: $background-image no-repeat center center fixed;
+        background-size: cover;
+        // opacity: 0.7;
+        z-index: -1;
+    }
 
 }
 
@@ -96,21 +136,6 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
 @media (min-width: 760px) {
 	.container {
 		width: 700px;
-	}
-
-    // A trick I learned to make a background image
-    // transparent (but doesn't need to be transparent)
-	#wrap:after {
-		content: "";
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: $background-image no-repeat center center fixed;
-		background-size: cover;
-		// opacity: 0.7;
-		z-index: -1;
 	}
 }
 
