@@ -10,12 +10,4 @@ Meetings are held on **Saturdays** weekly from **9:30 AM to 12:05 PM**, on the S
 
 {% assign post = site.posts.first %}
 
-Last Post: [{{ post.title }} ({{ post.date | date: "%B %-d, %Y" }})]({{ post.url }})
----------------------------------------------
-
-Site Links
-----------
-
-- [Learning index]({{ site.url }}/learning)
-- [About SDCR]({{ site.url }}/about.html)
-- [Making This Site]({{ site.url }}/making-this-site.html)
+## Last Post: [{{ post.title }} ({{ post.date | date: "%B %-d, %Y" }})]({{ post.url }})
