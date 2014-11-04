@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
 .navbar-default {
 	border-radius: 0;
 	margin-bottom: 0;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
 
     .navbar-brand img {
         margin-top: -13px;
