@@ -55,19 +55,19 @@ The output can be seen below. I wont bother showing the HTML for this, half beca
 
 Here's table of a few HTML formatting tags and their Markdown equivalents:
 
-Description 	  | HTML			 | Markdown
-:---			  | :---:			 | :---:
-Header 1		  | <h1>			 | `=` underline OR
-				  |					 | `#`
-Header 2		  | <h2>			 | `-` underline OR
-				  |					 | `##`
-Header 3, 4, 5, 6 | <h3>, <h4>, etc. | `###`, `####`, etc.
-Italics			  | <i>				 | `*`
-Bold			  | <b>				 | `**`
-Underline 		  | <u>				 | `_`
-Unordered list	  | <ul><li>		 | `-` OR `*` OR `+`
-Ordered list      | <ol><li>		 | `1.`, `2.`, etc.
-Blockquote		  | <blockquote>	 | `> `
+Description 	  | HTML			 	 | Markdown
+:---			  | :---:			 	 | :---:
+Header 1		  | `<h1>`			 	 | `=` underline OR
+				  |					 	 | `#`
+Header 2		  | `<h2>`			 	 | `-` underline OR
+				  |					 	 | `##`
+Header 3, 4, 5, 6 | `<h3>`, `<h4>`, etc. | `###`, `####`, etc.
+Italics			  | `<i>`				 | `*`
+Bold			  | `<b>`				 | `**`
+Underline 		  | `<u>`				 | `_`
+Unordered list	  | `<ul><li>`		 	 | `-` OR `*` OR `+`
+Ordered list      | `<ol><li>`		 	 | `1.`, `2.`, etc.
+Blockquote		  | `<blockquote>`	 	 | `> `
 
 For a full list of Markdown's formatting features you'll want to read over the [Daring Fireball: Mardown: Syntax](http://daringfireball.net/projects/markdown/syntax) page.
 
