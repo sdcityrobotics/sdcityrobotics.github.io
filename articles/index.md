@@ -10,11 +10,11 @@ Learning
 --------
 
 ### C++
-- [Introduction](cpp/cpp-intro.html)
-- [CMake with Visual Studio](cpp/cpp-cmake-with-visual-studio.html)
+- [Introduction](learning/cpp/cpp-intro.html)
+- [CMake with Visual Studio](learning/cpp/cpp-cmake-with-visual-studio.html)
 
 ### Git
-- [Git Introduction](git/git-intro.html)
+- [Git Introduction](learning/git/git-intro.html)
 
 ### Linux
 
@@ -22,23 +22,23 @@ Learning
 
 #### Site Development
 - [Introduction](web/site-intro.html)
-- [How This Site Was Made](web/site-made.html)
-- [Site Structure](web/site-structure.html)
+- [How This Site Was Made](learning/web/site-made.html)
+- [Site Structure](learning/web/site-structure.html)
 
 #### Markdown
-- [Introduction](web/site/writing-in-markdown.html)
+- [Introduction](learning/web/site/writing-in-markdown.html)
 
 #### SCSS (Style sheets)
-- [Introduction](web/scss-intro.html)
+- [Introduction](learning/web/scss-intro.html)
 
 #### Jekyll
-- [Introduction (Default)](jekyll-default-intro.html)
-- [Introduction](jekyll-intro.html)
+- [Introduction (Default)](learning/jekyll-default-intro.html)
+- [Introduction](learning/jekyll-intro.html)
 
 ### Windows
 
 #### Vim
-- [My Windows Setup (Nils)](windows/vim-nils.html)
+- [My Windows Setup (Nils)](learning/windows/vim-nils.html)
 
 ### Jekyll
-- [Introduction](web/jekyll/jekyll-intro.html)
+- [Introduction](learning/web/jekyll/jekyll-intro.html)
