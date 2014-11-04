@@ -1,11 +1,9 @@
 ---
 layout: page
-title: "Markdown"
-header: "Markdown Introduction"
+title: "Markdown Introduction"
 description: "An introduction on Markdown and how to use it."
 tagline: "What it is, how to use it"
 author: Nils Olsson
-tags: [learning, web, markdown]
 ---
 {% include JB/setup %}
 

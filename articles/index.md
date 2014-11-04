@@ -21,24 +21,24 @@ Learning
 ### Web
 
 #### Site Development
-- [Introduction](web/site-intro.html)
+- [Introduction](learning/web/site-intro.html)
 - [How This Site Was Made](learning/web/site-made.html)
 - [Site Structure](learning/web/site-structure.html)
 
 #### Markdown
-- [Introduction](learning/web/site/writing-in-markdown.html)
+- [Introduction](learning/web/markdown-intro.html)
 
 #### SCSS (Style sheets)
 - [Introduction](learning/web/scss-intro.html)
 
 #### Jekyll
-- [Introduction (Default)](learning/jekyll-default-intro.html)
-- [Introduction](learning/jekyll-intro.html)
+- [Introduction (Default)](learning/web/jekyll-default-intro.html)
+- [Introduction](learning/web/jekyll-intro.html)
 
 ### Windows
 
 #### Vim
-- [My Windows Setup (Nils)](learning/windows/vim-nils.html)
+- [My Windows Setup (Nils)](learning/windows/environment-setup-nils.html)
 
 ### Jekyll
 - [Introduction](learning/web/jekyll/jekyll-intro.html)

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Jekyll Introduction"
+title: "Jekyll Introduction (Default)"
 description: "An introduction to the Jekyll static website engine."
 tagline: "Static website engine"
 ---
