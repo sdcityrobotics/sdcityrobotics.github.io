@@ -38,4 +38,3 @@ Learning
 ### Windows
 
 #### Vim
-- [My Windows Setup (Nils)](learning/windows/environment-setup-nils.html)
