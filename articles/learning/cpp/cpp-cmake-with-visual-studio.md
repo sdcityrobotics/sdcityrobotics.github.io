@@ -4,6 +4,8 @@ title: "CMake with Visual Studio"
 description: "A tutorial on how to generate Visual C++ solutions using CMake."
 author: Nils Olsson
 ---
+{% include JB/setup %}
+
 # CMake with Visual Studio
 In the few hours, before deciding to write this article, I learned from scratch how to use the CMake build tool to configure and generate visual studio solutions. The point of this being that source code, project configuration and building can all be separated: a huge bonus for cross-platform development, and especially developing across different environments (Windows, Linux, OS X).
 
