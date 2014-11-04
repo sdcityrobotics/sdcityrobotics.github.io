@@ -39,6 +39,3 @@ Learning
 
 #### Vim
 - [My Windows Setup (Nils)](learning/windows/environment-setup-nils.html)
-
-### Jekyll
-- [Introduction](learning/web/jekyll/jekyll-intro.html)
