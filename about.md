@@ -19,14 +19,6 @@ Uncle Dave's Ol' Padded Box:
 http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 -->
 
-Who are we?
------------
-
-We are a small collective of students and robotics enthusiasts who want to learn how to build robots.
-
-Where are we?
--------------
-
 <div id="wrapper">
     <div id = "leftcolumn">We are located at City College of the San Diego Community College district, in-between Balboa Park and central Downtown.
     </div>
