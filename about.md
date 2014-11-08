@@ -27,6 +27,13 @@ We are a small collective of students and robotics enthusiasts who want to learn
 Where are we?
 -------------
 
+<div id="wrapper">
+    <div id = "leftcolumn">
+    </div>
+    <div id= "rightcolumn">
+    </div>
+</div>
+
 We are located at City College of the San Diego Community College district, in-between Balboa Park and central Downtown.
 
 <div id="map-container" style="margin-top: 30px; padding-top: 33.33%; position: relative; border: 1px solid #e7e7e7; box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);">
