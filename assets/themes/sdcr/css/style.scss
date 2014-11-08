@@ -121,8 +121,7 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
      margin-left: 260px;
      padding-left: 10px;
      border-left: 1px solid black;
-     overflow: hidden;
-     clear:both;
+     overflow: contain;
 }
 
 // Responsive rule: medium form (phone)
