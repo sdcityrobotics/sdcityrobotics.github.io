@@ -20,7 +20,7 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 -->
 
 <div id="wrapper">
-    <div id = "leftcolumn">We are located at City College of the San Diego Community College district, in-between Balboa Park and central Downtown.
+    <div id = "leftcolumn">IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE,
     </div>
     <div id= "rightcolumn">
     <p> San Diego City Robotics (SDCR), winners of the San Diego Mayor's Cup for Community Outreach at RoboSub 2012, is an organization composed of an interdisciplinary team of STEM (Science, Technology, Engineering, and Math) students. We are a robotics team open to the public, a college engineering class at San Diego City College, and a group that can accept donations through the San 
@@ -35,5 +35,3 @@ Please check us out at the San Diego City Robotics website and always remember o
 </p>
     </div>
 </div>
-
-We are located at City College of the San Diego Community College district, in-between Balboa Park and central Downtown.
