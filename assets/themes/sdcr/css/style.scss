@@ -105,6 +105,7 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
      overflow: auto;
 }
 
+//for about us image
 #leftcolumn {
      width: 250px;
      background-color: #111;
@@ -115,7 +116,59 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
      float: left;
 }
 
+// for about us content
 #rightcolumn {
+     width: 750px;
+     display: block;
+     margin-left: 260px;
+     padding-left: 10px;
+     border-left: 1px solid black;
+     overflow: contain;
+     float: left;
+}
+
+#leftcolumn {
+     width: 250px;
+     background-color: #111;
+     padding: 0;
+     margin: 0;
+     display: block;
+     border: 1px solid white;
+     float: left;
+}
+
+//for contact us content #1
+#contact1 {
+     width: 750px;
+     display: block;
+     margin-left: 260px;
+     padding-left: 10px;
+     border-left: 1px solid black;
+     overflow: contain;
+     float: left;
+}
+//for contact us content #2
+#contact2 {
+     width: 750px;
+     display: block;
+     margin-left: 260px;
+     padding-left: 10px;
+     border-left: 1px solid black;
+     overflow: contain;
+     float: left;
+}
+//for contact us content #3
+#contact3 {
+     width: 750px;
+     display: block;
+     margin-left: 260px;
+     padding-left: 10px;
+     border-left: 1px solid black;
+     overflow: contain;
+     float: left;
+}
+//for contact us form #4
+#contactform {
      width: 750px;
      display: block;
      margin-left: 260px;
