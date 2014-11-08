@@ -19,7 +19,12 @@ http://codepen.io/bradfrost/full/vwInb
 Uncle Dave's Ol' Padded Box:
 http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 -->
-
+<div id="wrapper">
+-    <div id = "contact1">IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE,
+-    </div>
++    <div id = "contact2">IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE,
+     </div>
+</div>
 <form action="" method="post" class="STYLE-NAME">
     <h1>Contact Form 
         <span>Please fill all the texts in the fields.</span>
