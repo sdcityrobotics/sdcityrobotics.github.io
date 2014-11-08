@@ -98,6 +98,13 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
     border-top: 1px solid #333;
 }
 
+#wrapper {
+     width: 1005px;
+     margin: 0 auto;
+     padding: 0;
+     overflow: auto;
+}
+
 #leftcolumn {
      width: 250px;
      background-color: #111;
