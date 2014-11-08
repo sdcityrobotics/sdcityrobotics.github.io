@@ -28,9 +28,10 @@ Where are we?
 -------------
 
 <div id="wrapper">
-    <div id = "leftcolumn">
+    <div id = "leftcolumn">We are located at City College of the San Diego Community College district, in-between Balboa Park and central Downtown.
     </div>
     <div id= "rightcolumn">
+    We are located at City College of the San Diego Community College district, in-between Balboa Park and central Downtown.
     </div>
 </div>
 
