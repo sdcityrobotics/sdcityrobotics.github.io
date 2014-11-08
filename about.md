@@ -23,8 +23,7 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
     <div id = "leftcolumn">We are located at City College of the San Diego Community College district, in-between Balboa Park and central Downtown.
     </div>
     <div id= "rightcolumn">
-    <div style = "clear:both;">
-    San Diego City Robotics (SDCR), winners of the San Diego Mayor's Cup for Community Outreach at RoboSub 2012, is an organization composed of an interdisciplinary team of STEM (Science, Technology, Engineering, and Math) students. We are a robotics team open to the public, a college engineering class at San Diego City College, and a group that can accept donations through the San 
+    <p> San Diego City Robotics (SDCR), winners of the San Diego Mayor's Cup for Community Outreach at RoboSub 2012, is an organization composed of an interdisciplinary team of STEM (Science, Technology, Engineering, and Math) students. We are a robotics team open to the public, a college engineering class at San Diego City College, and a group that can accept donations through the San 
 Diego City College Foundation Inc. not-for-profit organization; our main objective is designing a robust Autonomous Underwater Vehicle (AUV) which is capable of accomplishing the mission objectives outlined in the competition rules. 
  
 Since our college is on the standard semester system (Fall, Spring, and Summer), our team objective is broken down into three phases; Design, Build, and Testing respectively. Professor Robert Pruitt, our faculty advisor, is assisted by seasoned industry professionals who volunteer to help mentor the team in effective project management. We are active in our community by exhibiting at various convent
@@ -33,7 +32,7 @@ ions, science fairs, and trade shows. SDCR has taken part in the first San Diego
 San Diego City College is based in sunny San Diego, California. San Diego has a rich, beautiful coastline, and is a very active Navy town. The temperate climate allows the diverse people here to enjoy the outdoors and enables San Diego to be a host city for RoboSub. You can find out more about our lovely city at the San Diego City Government Home Page. RoboSub has always been a wonderful experience for SDCR. The competition gives a cool sense of camaraderie as a whole in pursuit of a common goal and gives us invaluable experiences that we will never forget.
  
 Please check us out at the San Diego City Robotics website and always remember our team motto : ONWARD AND DOWNWARD!
-    </div>
+</p>
     </div>
 </div>
 
