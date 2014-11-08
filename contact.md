@@ -28,9 +28,6 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
      </div>
 </div>
 <form action="" method="post" class="STYLE-NAME">
-    <h1>Contact Form 
-        <span>Please fill all the texts in the fields.</span>
-    </h1>
     <label>
         <span>Your Name :</span>
         <input id="name" type="text" name="name" placeholder="Your Full Name" />
