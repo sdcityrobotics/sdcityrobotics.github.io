@@ -26,6 +26,7 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
      </div>
      <div id = "contact3">IMAGE GOES HERE, IMAGE GOES HERE, IMAGE GOES HERE,
      </div>
+     <div id = "contactform">
 <form action="" method="post" class="STYLE-NAME">
     <label>
         <span>Your Name :</span>
@@ -52,6 +53,7 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
         <input type="button" class="button" value="Send" /> 
     </label>    
 </form>
+     </div>
 </div>
 
 <div id="map-container" style="margin-top: 30px; padding-top: 33.33%; position: relative; border: 1px solid #e7e7e7; box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);">
