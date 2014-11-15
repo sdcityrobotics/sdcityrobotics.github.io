@@ -19,6 +19,20 @@ http://codepen.io/bradfrost/full/vwInb
 Uncle Dave's Ol' Padded Box:
 http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 -->
+
+
+<link href="style.css" ref="stylesheet" type="test/css" media="all">
+
+<div class="container-fluid">
+    <div class="col-md-6">
+        <img src="./club01.png" alt="Club meeting" style="width: 100%">
+    </div>
+    <div class="col-md-6">
+        <p> San Diego City Robotics (SDCR)
+        </p>
+    </div>
+</div>
+
 <div id="wrapper">
      <div id = "contact1">SDCR
      </div>
@@ -26,6 +40,8 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
      </div>
      <div id = "contact3">Social media images and links go here, Social media images and links go here, 
      </div>
+     
+     
      <div id = "contactform">
 <form action="" method="post" class="STYLE-NAME">
     <label>
