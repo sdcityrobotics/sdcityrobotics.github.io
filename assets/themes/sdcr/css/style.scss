@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
     // Navigation bar items
     .navbar-nav li a {
         // Resize padding and margin for inset shadows
-        padding: 5px 10px 5px 0px;
+        padding: 5px 10px 5px 10px;
         margin: 10px 5px 10px 5px;
 
         // Inset shadows on hover or active
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
 
 // Content header default
 .page-header {
-	margin-top: 20px;
+	//margin-top: 20px;
 	border-bottom: 1px solid #333;
 }
 
