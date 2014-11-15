@@ -25,22 +25,48 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 
 <div class="container-fluid">
     <div class="col-md-2">
-        <p> San Diego City Robotics (SDCR)
+        <p> SDCR
         </p>
     </div>
 <div class="container-fluid">
     <div class="col-md-2">
-        <p> San Diego City Robotics (SDCR)
+        <p> 1313 Park Blvd <br>San Diego, CA 92101<br>Jason@sdcityrobotics.org<br>Tel: (858) 376-3727
         </p>
 </div>
 <div class="container-fluid">
     <div class="col-md-2">
-        <p> San Diego City Robotics (SDCR)
+        <p> Social media images and links go here, Social media images and links go here, 
         </p>
 </div>
     <div class="col-md-6">
-        <p> San Diego City Robotics (SDCR)
-        </p>
+    <div id = "contactform">
+<form action="" method="post" class="STYLE-NAME">
+    <label>
+        <span>Your Name :</span>
+        <input id="name" type="text" name="name" placeholder="Your Full Name" />
+    </label>
+    
+    <label>
+        <span>Your Email :</span>
+        <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+    </label>
+    
+    <label>
+        <span>Message :</span>
+        <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+    </label> 
+     <label>
+        <span>Subject :</span><select name="selection">
+        <option value="Job Inquiry">Job Inquiry</option>
+        <option value="General Question">General Question</option>
+        </select>
+    </label>    
+     <label>
+        <span>&nbsp;</span> 
+        <input type="button" class="button" value="Send" /> 
+    </label>    
+</form>
+     </div>
     </div>
 </div>
 
