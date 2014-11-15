@@ -20,7 +20,7 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 -->
 
 <div id="wrapper">
-    <div id = "leftcolumn"><img src="https://github.com/sdcityrobotics/sdcityrobotics.github.io/blob/master/siteimages/clubimage8.png" alt="Club at Work" style="width:304px;height:228px">
+    <div id = "leftcolumn"><img src="master/siteimages/clubimage8.png" alt="Club at Work" style="width:304px;height:228px">
     </div>
     <div id = "rightcolumn">
     <p> San Diego City Robotics (SDCR), winners of the San Diego Mayor's Cup for Community Outreach at RoboSub 2012, is an organization composed of an interdisciplinary team of STEM (Science, Technology, Engineering, and Math) students. We are a robotics team open to the public, a college engineering class at San Diego City College, and a group that can accept donations through the San Diego City College Foundation Inc. not-for-profit organization; our main objective is designing a robust Autonomous Underwater Vehicle (AUV) which is capable of accomplishing the mission objectives outlined in the competition rules. <br><br>
