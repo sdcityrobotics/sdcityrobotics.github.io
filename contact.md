@@ -24,9 +24,20 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 <link href="style.css" ref="stylesheet" type="test/css" media="all">
 
 <div class="container-fluid">
-    <div class="col-md-6">
-        <img src="./club01.png" alt="Club meeting" style="width: 100%">
+    <div class="col-md-2">
+        <p> San Diego City Robotics (SDCR)
+        </p>
     </div>
+<div class="container-fluid">
+    <div class="col-md-2">
+        <p> San Diego City Robotics (SDCR)
+        </p>
+</div>
+<div class="container-fluid">
+    <div class="col-md-2">
+        <p> San Diego City Robotics (SDCR)
+        </p>
+</div>
     <div class="col-md-6">
         <p> San Diego City Robotics (SDCR)
         </p>
