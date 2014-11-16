@@ -30,19 +30,19 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
     </div>
     
 <div class="container-fluid">
-    <div class="col-md-1">
+    <div class="col-md-2">
         <p> 1313 Park Blvd <br>San Diego, CA 92101<br>Jason@sdcityrobotics.org<br>Tel: (858) 376-3727
         </p>
 </div>
 
 <div class="container-fluid">
-    <div class="col-md-1">
+    <div class="col-md-2">
         <p> Social media images and links go here, Social media images and links go here, 
         </p>
 </div>
 
 <div class="container-fluid">
-    <div class="col-md-3">
+    <div class="col-md-7">
     <form action="MAILTO:jejuarez88@gmail.com" method="post" enctype="text/plain">
 <input type="text" name="name" value="Name"><br>
 <input type="text" name="mail" value="Email"><br>
