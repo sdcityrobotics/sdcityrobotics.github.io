@@ -24,13 +24,13 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 <link href="style.css" ref="stylesheet" type="test/css" media="all">
 
 <div class="container-fluid">
-    <div class="col-md-2">
+    <div class="col-md-1">
         <p> SDCR
         </p>
     </div>
     
 <div class="container-fluid">
-    <div class="col-md-2">
+    <div class="col-md-3">
         <p> 1313 Park Blvd <br>San Diego, CA 92101<br>Jason@sdcityrobotics.org<br>Tel: (858) 376-3727
         </p>
 </div>
