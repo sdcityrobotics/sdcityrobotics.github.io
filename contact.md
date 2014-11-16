@@ -22,7 +22,7 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 
 
 <link href="style.css" ref="stylesheet" type="test/css" media="all">
-
+<!--
 <div class="container-fluid">
     <div class="col-md-2">
         <p> SDCR
@@ -44,9 +44,9 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 <textarea id="message" name="message" placeholder="Message"></textarea><br>
 <input type="submit" value="Send">
 <input type="reset" value="Reset">
-    
+    </div>
 </div>
-
+-->
 
 <div id="map-container" style="margin-top: 30px; padding-top: 33.33%; position: relative; border: 1px solid #e7e7e7; box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);">
     <iframe id="map" src="https://www.google.com/maps/embed/v1/place?q=san%20diego%20city%20college&key=AIzaSyC-c-4P3FhPrpP08DmDmrwjG44DUE3v_LU" style="bottom: 0; height: 100%; left: 0; position: absolute; right: 0; top: 0; width: 100%; border: 0;">
