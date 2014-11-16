@@ -20,7 +20,6 @@ Meetings are held on **Saturdays** weekly from **9:30 AM to 12:05 PM**, on the S
 
   </div>
   
-  <div class="container-fluid">
     <div class="col-md-3">
     ---
 layout: page
@@ -38,5 +37,5 @@ group: navigation
 {% include JB/posts_collate %}
 </html>
 
- </div>
+    </div>
 </div>
