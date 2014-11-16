@@ -37,13 +37,11 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
         <p> Social media images and links go here, Social media images and links go here, 
         </p>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-6">
     <form action="MAILTO:jejuarez88@gmail.com" method="post" enctype="text/plain">
 <input type="text" name="name" value="Name"><br>
 <input type="text" name="mail" value="Email"><br>
 <input id="subject" type="text" name="subject" value="Subject">
-    </div>
-    <div clas="col-md-3">
 <textarea id="message" name="message" placeholder="Message"></textarea><br>
 <input type="submit" value="Send">
 <input type="reset" value="Reset">
