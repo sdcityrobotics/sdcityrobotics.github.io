@@ -23,9 +23,6 @@ Meetings are held on **Saturdays** weekly from **9:30 AM to 12:05 PM**, on the S
     <div class="col-md-3">
 {% include JB/setup %}
 
-- [(sort by Category)]({{ site.url }}/categories.html)
-- [(sort by Tag)]({{ site.url }}/tags.html)
-
 <html>
 {% assign posts_collate = site.posts %}
 {% include JB/posts_collate %}
