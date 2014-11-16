@@ -42,13 +42,11 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 </div>
    
     <div class="col-md-6">
-    <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name" value="your name"><br>
-E-mail:<br>
-<input type="text" name="mail" value="your email"><br>
-Comment:<br>
-<textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+    <form action="MAILTO:jejuarez88@gmail.com" method="post" enctype="text/plain">
+<input type="text" name="name" value="Name"><br>
+<input type="text" name="mail" value="Email"><br>
+<input id="subject" type="text" name="subject" value="Subject"><br>
+<textarea id="message" name="message" placeholder="Message"></textarea><br>
 <input type="submit" value="Send">
 <input type="reset" value="Reset">
     </form>
