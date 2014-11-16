@@ -44,7 +44,6 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 <textarea id="message" name="message" placeholder="Message"></textarea><br>
 <input type="submit" value="Send">
 <input type="reset" value="Reset">
-    </div>
     
 </div>
 
