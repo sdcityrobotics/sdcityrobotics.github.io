@@ -21,12 +21,6 @@ Meetings are held on **Saturdays** weekly from **9:30 AM to 12:05 PM**, on the S
   </div>
   
     <div class="col-md-3">
-    ---
-layout: page
-title: Blog
-header: Blog Posts by Date
-group: navigation
----
 {% include JB/setup %}
 
 - [(sort by Category)]({{ site.url }}/categories.html)
