@@ -53,15 +53,15 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
         <span>Your Email :</span>
         <input id="email" type="email" name="email" placeholder="Valid Email Address" />
     </label>
-    
+    <label>
+        <span>Subject :</span>
+        <input id="subject" type="subject" name="subject" placeholder="Subect" />
+    </label>   
     <label>
         <span>Message :</span>
         <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
     </label> 
-     <label>
-        <span>Subject :</span>
-        <textarea id="subject" name="subject" placeholder="Subject"></textarea>
-    </label>    
+ 
      <label>
         <span>&nbsp;</span> 
         <input type="button" class="button" value="Send" /> 
