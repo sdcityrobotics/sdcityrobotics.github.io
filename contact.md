@@ -24,19 +24,19 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
 <link href="style.css" ref="stylesheet" type="test/css" media="all">
 
 <div class="container-fluid">
-    <div class="col-md-2">
+    <div class="col-md-1.5">
         <p> SDCR
         </p>
     </div>
     
 <div class="container-fluid">
-    <div class="col-md-2">
+    <div class="col-md-3">
         <p> 1313 Park Blvd <br>San Diego, CA 92101<br>Jason@sdcityrobotics.org<br>Tel: (858) 376-3727
         </p>
 </div>
 
 <div class="container-fluid">
-    <div class="col-md-2">
+    <div class="col-md-1.5">
         <p> Social media images and links go here, Social media images and links go here, 
         </p>
 </div>
@@ -54,11 +54,11 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
         <input id="email" type="email" name="email" placeholder="Valid Email Address" />
     </label>
     <label>
-        <span>Subject :</span>
+        <span>Subject :    </span>
         <input id="subject" type="subject" name="subject" placeholder="Subect" />
     </label>   
     <label>
-        <span>Message :</span>
+        <span>Message :  </span>
         <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
     </label> 
  
