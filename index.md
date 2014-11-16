@@ -38,4 +38,5 @@ group: navigation
 {% include JB/posts_collate %}
 </html>
 
+ </div>
 </div>
