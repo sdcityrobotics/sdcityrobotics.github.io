@@ -28,16 +28,19 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
         <p> SDCR
         </p>
     </div>
+    
 <div class="container-fluid">
     <div class="col-md-2">
         <p> 1313 Park Blvd <br>San Diego, CA 92101<br>Jason@sdcityrobotics.org<br>Tel: (858) 376-3727
         </p>
 </div>
+
 <div class="container-fluid">
     <div class="col-md-2">
         <p> Social media images and links go here, Social media images and links go here, 
         </p>
 </div>
+   
     <div class="col-md-6">
     <div id = "contactform">
 <form action="" method="post" class="STYLE-NAME">
@@ -56,10 +59,8 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
         <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
     </label> 
      <label>
-        <span>Subject :</span><select name="selection">
-        <option value="Job Inquiry">Job Inquiry</option>
-        <option value="General Question">General Question</option>
-        </select>
+        <span>Subject :</span>
+        <textarea id="subject" name="subject" placeholder="Subject"></textarea>
     </label>    
      <label>
         <span>&nbsp;</span> 
@@ -70,44 +71,6 @@ http://daverupert.com/2012/04/uncle-daves-ol-padded-box/
     </div>
 </div>
 
-<div id="wrapper">
-     <div id = "contact1">SDCR
-     </div>
-     <div id = "contact2">1313 Park Blvd <br>San Diego, CA 92101<br>Jason@sdcityrobotics.org<br>Tel: (858) 376-3727
-     </div>
-     <div id = "contact3">Social media images and links go here, Social media images and links go here, 
-     </div>
-     
-     
-     <div id = "contactform">
-<form action="" method="post" class="STYLE-NAME">
-    <label>
-        <span>Your Name :</span>
-        <input id="name" type="text" name="name" placeholder="Your Full Name" />
-    </label>
-    
-    <label>
-        <span>Your Email :</span>
-        <input id="email" type="email" name="email" placeholder="Valid Email Address" />
-    </label>
-    
-    <label>
-        <span>Message :</span>
-        <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
-    </label> 
-     <label>
-        <span>Subject :</span><select name="selection">
-        <option value="Job Inquiry">Job Inquiry</option>
-        <option value="General Question">General Question</option>
-        </select>
-    </label>    
-     <label>
-        <span>&nbsp;</span> 
-        <input type="button" class="button" value="Send" /> 
-    </label>    
-</form>
-     </div>
-</div>
 
 <div id="map-container" style="margin-top: 30px; padding-top: 33.33%; position: relative; border: 1px solid #e7e7e7; box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);">
     <iframe id="map" src="https://www.google.com/maps/embed/v1/place?q=san%20diego%20city%20college&key=AIzaSyC-c-4P3FhPrpP08DmDmrwjG44DUE3v_LU" style="bottom: 0; height: 100%; left: 0; position: absolute; right: 0; top: 0; width: 100%; border: 0;"></iframe> 
