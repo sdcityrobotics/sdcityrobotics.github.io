@@ -83,6 +83,10 @@ h1, h2, h3, h4, h5, h6, .navbar-default .navbar-brand, .navbar-default .navbar-n
     }
 }
 
+.container-fluid .col-md-4 .col-md-8 {
+    padding: 0;
+}
+
 // Content header default
 .page-header {
 	margin-top: 20px;
