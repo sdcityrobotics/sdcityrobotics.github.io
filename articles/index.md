@@ -2,7 +2,6 @@
 layout: page
 title: Articles
 header: Articles Index
-group: navigation
 ---
 {% include JB/setup %}
 
