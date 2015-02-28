@@ -1,4 +1,0 @@
----
----
-
-{% include {{ BASE_PATH }} %}
