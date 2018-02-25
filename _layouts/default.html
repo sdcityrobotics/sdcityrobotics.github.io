@@ -1,6 +1,22 @@
----
-theme :
-    name : sdcr
----
-{% include JB/setup %}
-{% include themes/sdcr/default.html %}
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body class="{{ page.bodyclass }}">
+
+    {% include tagmanager.html %}
+
+    {% include header.html %}
+
+    <div id="page-wrapper">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+  </body>
+
+</html>
