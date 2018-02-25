@@ -1,0 +1,17 @@
+<!-- Sidebar -->
+<section id="sidebar">
+    <section>
+        <h3>Recent Posts</h3>
+        {% for post in site.posts limit:3 %}
+            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br/>
+        {% endfor %}
+    </section>
+    <hr />
+    <section>
+        <h3>Topics</h3>
+        {% for category in site.categories %}
+            <a href="{{ category[0] }}">{{ category[0] }}</a><br/>
+        {% endfor %}
+    </section>
+</section>
+
