@@ -1,0 +1,38 @@
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.keywords }}">
+    <meta name="robots" content="index, follow" />
+    <title>{{ site.title }} | {{ page.title }}</title>
+  
+    <!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+
+    {% assign rawcategories = "" %}
+    {% for post in site.posts %}
+        {% assign tcategories = post.categories | join:'|' | append:'|' %}
+        {% assign rawcategories = rawcategories | append:tcategories %}
+    {% endfor %}
+    {% assign rawcategories = rawcategories | split:'|' | sort %}
+
+    {% assign site.categories = "" %}
+    {% for tag in rawcategories %}
+    {% if tag != "" %}
+        {% if categories == "" %}
+        {% assign categories = tag | split:'|' %}
+        {% endif %}
+        {% unless categories contains tag %}
+        {% assign categories = categories | join:'|' | append:'|' | append:tag | split:'|' %}
+        {% endunless %}
+    {% endif %}
+    {% endfor %}
+
+</head>
+
+
+  

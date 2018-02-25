@@ -1,0 +1,19 @@
+---
+layout: content
+---
+<div class="row 150%">
+    <div class="4u 12u$(medium)">
+
+        {% if page.id %}
+            {% include news-sidebar.html %}
+        {% else %}
+            {% include {{ page.sidebar }} %}
+        {% endif %}
+
+    </div>
+    <div class="8u$ 12u$(medium) important(medium)">
+
+        {{ content }}
+
+    </div>
+</div>
