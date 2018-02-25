@@ -1,5 +1,28 @@
 ---
-layout: default
+layout: right-sidebar
 ---
-{% include JB/setup %}
-{% include themes/sdcr/post.html %}
+
+<section id="post">
+
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+        <div class="post-header">
+        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+        <p class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+            <br/><a href="{{ site.url }}{{ page.url }}#disqus_thread" title="{{ page.title }}" class="comment-count"></a>
+        </p>
+        </div>
+
+        <div class="post-content" itemprop="articleBody">
+        {{ content }}
+        </div>
+    </article>
+
+</section>
+
+<section id="disqus">
+    <div class="post-comments">
+          
+    </div>
+</section>
