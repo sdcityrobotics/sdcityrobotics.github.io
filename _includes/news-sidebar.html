@@ -7,11 +7,11 @@
         {% endfor %}
     </section>
     <hr />
-    <section>
+    <section id="js-topics">
         <h3>Topics</h3>
         {% for category in site.categories %}
-            <a href="{{ category[0] }}">{{ category[0] }}</a><br/>
+            <a data-topic="{{ category[0] }}">{{ category[0] }}</a><br/>
         {% endfor %}
     </section>
 </section>
-
+<script src="/js/blog.js"></script>

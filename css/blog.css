@@ -1,0 +1,6 @@
+section.blog-posts {
+    display:none;
+}
+#js-topics a {
+    cursor: pointer;
+}
