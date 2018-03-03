@@ -7,11 +7,16 @@
     <meta name="keywords" content="{{ site.keywords }}">
     <meta name="robots" content="index, follow" />
     <title>{{ site.title }} | {{ page.title }}</title>
-  
+
+    <link rel="icon" href="/images/icons/cropped-sdcr_logo-2-32x32.png" sizes="32x32" />
+    <link rel="icon" href="/images/icons/cropped-sdcr_logo-2-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="/images/icons/cropped-sdcr_logo-2-180x180.png" />
     <!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="/css/main.css" />
     <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+
+    {% include scripts.html %}
 
     {% assign rawcategories = "" %}
     {% for post in site.posts %}
