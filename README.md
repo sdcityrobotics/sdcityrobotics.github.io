@@ -1,15 +1,23 @@
-#Contribution Guide
+# Contribution Guide
 
 If you're a member of SDCR and would like to contribute to the project, 
 please make sure you understand the basics of the Github Fork and Pull workflow, 
 as well as how Jekyll sites are set up. 
 
-##Git Process
+## HTML, CSS, JavaScript
+
+If you're not familiar with web development, generally, please check out https://www.freecodecamp.org/ and similar resources before moving on to the rest of the guide. You don't need to be an expert in any of these, but you do need to have a basic understanding. 
+
+## Markdown
+
+Content pages of the site (news entries, etc.) are generally built using Markdown, not HTML. You've probably used something similar to Markdown before, whether in old forums or on Reddit. Here's a quick guide: https://guides.github.com/features/mastering-markdown/
+
+## Git Process
 
 To get a better understanding of Git and the process we'll be using, check out these guides:
 
-https://guides.github.com/ - general GitHub guides
-https://gist.github.com/Chaser324/ce0505fbed06b947d962 - a good rundown on the Fork and Pull workflow
+- https://guides.github.com/ - general GitHub guides
+- https://gist.github.com/Chaser324/ce0505fbed06b947d962 - a good rundown on the Fork and Pull workflow
 
 We will be using the Fork and Pull workflow. While you should read the guides, the key points are:
 
@@ -47,9 +55,9 @@ git push origin BRANCH_NAME
 - Once you have pushed to your Fork, you'll go to GitHub and do a Pull Request so 
 that your code can be reviewed and then merged into the main project
 
-##Jekyll
+## Jekyll
 
-https://jekyllrb.com/docs/home/ 
+- https://jekyllrb.com/docs/home/ 
 
 You'll need to install Ruby before installing Jekyll. Jekyll is a static site generator 
 that works wonderfully with GitHub Pages. If you install it, you can make your own projects 
