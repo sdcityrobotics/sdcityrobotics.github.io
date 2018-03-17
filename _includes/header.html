@@ -1,13 +1,22 @@
 <!-- Header -->
 <header id="header">
     <h1 id="logo">
-        <a href="index.html"><img src="/images/icons/cropped-sdcr_logo-2-32x32.png" alt="{{ site.title }}" />{{ site.title }}</a>
+        <a href="index.html">
+            <img src="/images/icons/cropped-sdcr_logo-2-32x32.png" alt="{{ site.title }}" />
+            {{ site.title }}
+        </a>
     </h1>
     <nav id="nav">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="team.html">Team</a></li>
+            <li><a href="/team">Team</a>
+                <ul>
+                    <li><a href="/team/mechanical.html">Mechanical</a></li>
+                    <li><a href="/team/electrical.html">Electrical</a></li>
+                    <li><a href="/team/software.html">Software</a></li>
+                </ul>
+            </li>
             <li><a href="outreach.html">Outreach</a></li>
             <li><a href="sponsors.html">Sponsors</a></li>
             <li><a href="/news">News</a></li>
