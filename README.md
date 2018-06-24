@@ -63,6 +63,7 @@ You'll need to install Ruby before installing Jekyll. Jekyll is a static site ge
 that works wonderfully with GitHub Pages. If you install it, you can make your own projects 
 to really get a feel for it before diving into ours. You'll need to install it if you want to 
 actually test your changes to our project as you make them. Once installed, use terminal to 
+
 navigate to the project folder (cloned above using Git), then type 
 
 ```jekyll serve``` 

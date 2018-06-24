@@ -3,12 +3,35 @@ layout: default
 ---
 
 <!-- Main -->
-<div id="main" class="wrapper style1">
-	<div class="container">
-		<header class="major">
-			<h2>{{ page.title }}</h2>
-			<p>{{ page.subtitle }}</p>
-		</header>
-            {{ content }}
+{% if page.pageimage %}
+	<div class="page-image lazy" data-src="{{ page.pageimage }}">
+		<div></div>
 	</div>
-</div>
+{% endif %}
+<article>	
+	<div class="content">
+		{% if page.id %}
+
+			<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+				<h1 class="text-center post-title" itemprop="name headline">{{ page.title }}</h1>
+				<h2 class="post-meta text-center">
+					<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+				</h2>
+				<hr/>
+
+				{{ content }}
+			</article>
+
+		{% else %}
+
+			<h1 class="text-center">{{ page.title }}</h1>
+				{% if page.subtitle %}
+				<h2 class="text-center">{{ page.subtitle }}</h2>
+				{% endif %}
+			<hr/>
+			{{ content }}
+
+		{% endif %}
+	</div>
+</article>
