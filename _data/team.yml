@@ -1,0 +1,21 @@
+- name: Software
+  members:
+     - name: Arnold
+       pic: http://via.placeholder.com/500x500
+       bio: Stuff about Arnold
+     - name: Emma
+       pic: http://via.placeholder.com/500x500
+       bio: Stuff about Emma
+
+- name: Mechanical
+  members:
+     - name: Arnold
+       pic: http://via.placeholder.com/500x500
+       bio: Stuff about Arnold
+  
+- name: Electrical
+  members:
+     - name: Arnold
+       pic: http://via.placeholder.com/500x500
+       bio: Stuff about Arnold
+  
