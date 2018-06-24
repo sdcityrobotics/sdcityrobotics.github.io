@@ -1,8 +1,8 @@
 ---
 layout: content
 ---
-<div class="row 150%">
-    <div class="4u 12u$(medium)">
+<div class="row">
+    <div class="col-12 col-md-4">
 
         {% if page.id %}
             {% include news-sidebar.html %}
@@ -11,9 +11,15 @@ layout: content
         {% endif %}
 
     </div>
-    <div class="8u$ 12u$(medium) important(medium)">
+    <div class="col-12 col-md-8">
 
-        {{ content }}
-
+        {% if page.id %}
+            <div class="post-content" itemprop="articleBody">
+                {{ content }}
+            </div>
+        {% else %}
+            {{ content }}
+        {% endif %}
+        
     </div>
 </div>

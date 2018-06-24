@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<!-- Main -->
+{% include map.html %}
+<article>	
+	<div class="content">
+        <h1 class="text-center">{{ page.title }}</h1>
+        {% if page.subtitle %}
+        <h2 class="text-center">{{ page.subtitle }}</h2>
+        {% endif %}
+        <hr/>
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <form id="contact">
+                    <div class="form-group">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" class="form-control" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="_replyto" class="sr-only">Email</label>
+                        <input type="email" class="form-control" name="_replyto" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="_subject" class="sr-only">Subject</label>
+                        <input type="text" class="form-control" name="_subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea class="form-control" name="message" placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <button type="submit" class="btn btn-lg btn-outline-light">Submit</button>
+                </form>
+            </div>
+            <div class="col-12 col-md-4">
+                {{ content }}
+            </div>
+        </div>
+	</div>
+</article>
+
+<script>
+    $('#contact').on('submit',function(e){
+        e.preventDefault();
+        var form = $('#contact').serialize();
+
+        $.ajax({
+            url: "https://formspree.io/emmalanebrand@gmail.com", 
+            method: "POST",
+            data: form,
+            dataType: "json"
+        })
+        .always(function(data){
+            if(data.success){
+                $('#contact').text("Thanks for your message! If you requested a response, we'll be in touch soon!").addClass('success');
+            };
+        });
+    });
+
+</script>
