@@ -2,6 +2,7 @@
 layout: right-sidebar
 title: News
 subtitle: News subtitle
+permalink: /news
 sidebar: news-sidebar.html
 ---
 
@@ -14,7 +15,7 @@ sidebar: news-sidebar.html
 	  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 	    <div class="post-header">
 	        <a href="{{ post.url }}" title="{{ post.title }}">
-		        <h2 class="post-title" itemprop="name headline">{{ post.title }}</h2>
+		        <h1 class="post-title" itemprop="name headline">{{ post.title }}</h1>
 	        </a>
 	        <p class="post-meta">
 	            <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time>
@@ -22,15 +23,16 @@ sidebar: news-sidebar.html
 	        </p>
 	    </div>
 
-	    <div class="post-content text-left" itemprop="articleBody">
+	    <div class="post-content post-excerpt text-left" itemprop="articleBody">
 	        {{ post.excerpt }}
 	    </div>
 
         <p>
-            <a href="{{ post.url }}" title="{{ post.title }}">Read More</a>
+            <a href="{{ post.url }}" title="{{ post.title }}" role="button" class="btn btn-outline-secondary">Read More</a>
         </p>
 
 	  </article>
+	  <hr/>
 
 </section>
 

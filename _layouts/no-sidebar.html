@@ -3,7 +3,7 @@ layout: content
 ---
 
 <div class="row">
-    <div class="col-12 col-md-8">
+    <div class="col-12">
 
         {% if page.id %}
             <div class="post-content" itemprop="articleBody">
@@ -11,15 +11,6 @@ layout: content
             </div>
         {% else %}
             {{ content }}
-        {% endif %}
-
-    </div>
-    <div class="col-12 col-md-4">
-
-        {% if page.id %}
-            {% include news-sidebar.html %}
-        {% else %}
-            {% include {{ page.sidebar }} %}
         {% endif %}
 
     </div>
