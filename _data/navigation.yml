@@ -1,0 +1,17 @@
+- page: Home
+  url: /
+  
+- page: About
+  url: /about
+
+- page: Team
+  url: /team
+
+- page: Sponsors
+  url: /sponsors
+
+- page: News
+  url: /news
+
+- page: Contact
+  url: /contact
