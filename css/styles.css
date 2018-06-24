@@ -274,17 +274,13 @@ form {
 }
 
 #map, .page-image {
-height: 70vh;
+height: 60vh;
 width: 100%;
 margin-top: 2.7em;
-margin-bottom: -3em;
-border-bottom: 4px solid #313862;
+margin-bottom: -2.7em;
+border-bottom: 4px solid #313862 !important;
 }
 
-#map {
-position: relative;
-z-index: 0;
-}
 .team {
     margin-bottom: 1.5em;
 }
@@ -311,7 +307,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 .page-image div {
-    height: 70vh;
+    height: 60vh;
 }
 
 
@@ -366,7 +362,7 @@ article .content .blog-posts .post p.post-meta {
         background-color: transparent;
     }
     nav.page {
-        background-color: rgba(34, 39, 41, 0.65);
+        background-color: rgba(34, 39, 41, 0.5);
     }
 
     header, nav {
@@ -379,9 +375,16 @@ article .content .blog-posts .post p.post-meta {
         opacity: 0;
     }
 
-    #map, .page-image {
-        margin-top: 0;
+    #map {
+        height: 60vh;
+        margin-top: 4em;
         margin-bottom: -6em;
+    }
+
+    .page-image {
+        height: calc(60vh + 4em);
+        margin-top: 0;
+        margin-bottom: -5.5em;
     }
     
     .parallax.bottom {
@@ -409,7 +412,6 @@ article .content .blog-posts .post p.post-meta {
     }
 
     article .content {
-        margin-top: 1.5em;
         padding: 5.5em;
     }
 
