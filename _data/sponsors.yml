@@ -1,0 +1,20 @@
+- name: NVidia
+  imagepath: /images/nvidia.jpg
+  url: //www.nvidia.com/page/home.html
+  
+- name: mRobotics
+  imagepath: /images/mrobotics.png
+  url: //mrobotics.io/
+
+- name: robo
+  imagepath: /images/robo.png
+  url: 
+
+- name: Rowe
+  imagepath: /images/rowe.png
+  url: 
+
+- name: SolidWorks
+  imagepath: /images/solidworks.png
+  url: //www.solidworks.com/
+

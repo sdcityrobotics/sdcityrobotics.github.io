@@ -2,20 +2,8 @@ title: San Diego City Robotics
 url: https://sdcityrobotics.github.io
 description: The site description
 keywords: san diego, robotics, robosub
-
-github: sdcityrobotics
-linkedin: 7063750
-instagram: sdcityrobotics
-youtube: UCJz01J4gDduA9i_byO4TLnQ
-twitter: SDCityRobotics
-facebook: SDCityRobotics
-email: test@test.com
+currentlocation: San Diego City Robotics Club, 1313 Park Blvd, San Diego, CA 92101
 
 permalink: /news/:title
 excerpt_separator: <!--more-->
 markdown: kramdown
-
-collections:
-  members:
-    output: true
-    permalink: /team/:path/

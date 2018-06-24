@@ -1,0 +1,27 @@
+- name: Twitter
+  link: https://twitter.com/SDCityRobotics
+  icon: twitter
+
+- name: GitHub
+  link: https://github.com/sdcityrobotics
+  icon: github-circle
+
+- name: LinkedIn
+  link: https://linkedin.com/groups/7063750
+  icon: linkedin
+
+- name: Instagram
+  link: https://instagram.com/sdcityrobotics
+  icon: instagram
+
+- name: YouTube
+  link: https://www.youtube.com/channel/UCJz01J4gDduA9i_byO4TLnQ
+  icon: youtube
+
+- name: Facebook
+  link: https://facebook.com/SDCityRobotics
+  icon: facebook
+
+- name: Email
+  link: mailto:test@test.com
+  icon: email

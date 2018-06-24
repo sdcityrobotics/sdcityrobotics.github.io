@@ -1,14 +1,11 @@
-<!-- Footer -->
-<footer id="footer">
-    <ul class="icons">
-        <li><a href="https://twitter.com/{{ site.twitter }}" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-        <li><a href="https://facebook.com/{{ site.facebook }}" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-        <li><a href="https://linkedin.com/groups/{{ site.linkedin }}" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-        <li><a href="https://instagram.com/{{ site.instagram }}" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-        <li><a href="https://github.com/{{ site.github }}" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-        <li><a href="mailto:{{ site.email }}" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-    </ul>
-    <ul class="copyright">
-        <li>&copy; 2018 San Diego City Robotics. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-    </ul>
+<footer>
+    <div class="container-fluid text-center">
+        {% for social in site.data.social %}
+            <a href="{{ social.link }}">
+                <i class="mdi mdi-{{ social.icon }} mdi-24px" aria-hidden="true"></i> 
+                <span class="sr-only">{{ social.name }}</span>
+            </a>
+        {% endfor %}
+        <p>&copy; 2018 San Diego City Robotics. All rights reserved.</p>
+    </div>
 </footer>
