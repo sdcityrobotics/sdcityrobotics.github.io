@@ -279,6 +279,8 @@ width: 100%;
 margin-top: 2.7em;
 margin-bottom: -2.7em;
 border-bottom: 4px solid #313862 !important;
+background-image: url('/images/map.jpg');
+background-size: 100%;
 }
 
 .team {
