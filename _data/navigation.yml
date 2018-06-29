@@ -10,8 +10,8 @@
 - page: Sponsors
   url: /sponsors
 
-- page: News
-  url: /news
+#- page: News
+#  url: /news
 
 - page: Contact
   url: /contact

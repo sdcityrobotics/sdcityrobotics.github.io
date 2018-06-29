@@ -47,7 +47,7 @@ layout: default
         var form = $('#contact').serialize();
 
         $.ajax({
-            url: "https://formspree.io/test@test.com", 
+            url: "https://formspree.io/{{ site.email }}", 
             method: "POST",
             data: form,
             dataType: "json"
