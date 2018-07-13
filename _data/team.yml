@@ -1,21 +1,47 @@
+- name: Leadership
+  members:
+     - name: DJ Brown
+       pic: 
+       info: President
+     - name: Arnold Suarez
+       pic:
+       info: Vice President
+     - name: Leila Firestone
+       pic:
+       info: Treasurer
+     - name: Matt Bailey
+       pic:
+       info: Secretary
+     - name: Bob Pruitt
+       pic:
+       info: Faculty Advisor
+
 - name: Software
   members:
-     - name: Arnold
-       pic: http://via.placeholder.com/500x500
-       bio: Stuff about Arnold
-     - name: Emma
-       pic: http://via.placeholder.com/500x500
-       bio: Stuff about Emma
+     - name: Emma Brand
+       pic: 
+     - name: Jason Plojo
+       pic:
+     - name: Nikita Bobrov
+       pic:
+     - name: Edward Richards
+       pic:
 
 - name: Mechanical
   members:
-     - name: Arnold
-       pic: http://via.placeholder.com/500x500
-       bio: Stuff about Arnold
+     - name: Dominic Quijano
+       pic: 
+     - name: Jose Puga
+       pic:
+     - name: Linda Clark-Murillo
+       pic:
   
 - name: Electrical
   members:
-     - name: Arnold
-       pic: http://via.placeholder.com/500x500
-       bio: Stuff about Arnold
+     - name: Caroline Dillman
+       pic: 
+     - name: Axel Ruiz
+       pic:
+     - name: Giovanni Angel
+       pic:
   

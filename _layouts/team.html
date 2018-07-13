@@ -13,13 +13,17 @@ layout: no-sidebar
     </div>
     {% for member in team.members %}
         <div class="col-12 col-md-4 col-lg-3 member-info text-center">
-            <img class="member-pic lazy" 
-                src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-                data-src="{{ member.pic }}"
-                alt="{{ member.name }} - {{ team.name }} Team"
-            />
+            {% if member.pic %}
+                <img class="member-pic lazy" 
+                    src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                    data-src="{{ member.pic }}"
+                    alt="{{ member.name }} - {{ team.name }} Team"
+                />
+            {% endif %} 
             <h4>{{ member.name }}</h4>
-            <p>{{ member.bio }}</p>
+            {% if member.info %}
+                <p>{{ member.info }}</p>
+            {% endif %}
         </div>
     {% endfor %}
     
