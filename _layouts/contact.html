@@ -13,7 +13,7 @@ layout: default
         <hr/>
         <div class="row">
             <div class="col-12 col-md-8">
-               <form id="contact">
+               <form id="contact" action="https://formspree.io/sdcrobotics@gmail.com" method="post">
                     <div class="form-group">
                         <label for="name" class="sr-only">Name</label>
                         <input type="text" class="form-control" name="name" placeholder="Name" required>
@@ -42,7 +42,7 @@ layout: default
 </article>
 
 <script>
-    $('#contact').on('submit',function(e){
+   /** $('#contact').on('submit',function(e){
         e.preventDefault();
         var form = $('#contact').serialize();
 
@@ -57,6 +57,6 @@ layout: default
                 $('#contact').text("Thanks for your message! If you requested a response, we'll be in touch soon!").addClass('success');
             };
         });
-    });
+    });**/
 
 </script>
