@@ -1,7 +1,7 @@
 - name: Leadership
   members:
      - name: DJ Brown
-       pic: 
+       pic: djbrown.jpg
        info: President
      - name: Arnold Suarez
        pic:
@@ -10,16 +10,16 @@
        pic:
        info: Treasurer
      - name: Matt Bailey
-       pic:
+       pic: mattbailey.jpg
        info: Secretary
      - name: Bob Pruitt
-       pic:
+       pic: bobpruitt.jpg
        info: Faculty Advisor
 
 - name: Software
   members:
      - name: Emma Brand
-       pic: 
+       pic: emmabrand.jpg
      - name: Jason Plojo
        pic:
      - name: Nikita Bobrov
@@ -30,21 +30,30 @@
 - name: Mechanical
   members:
      - name: Dominic Quijano
-       pic: 
-     - name: Jose Puga
-       pic:
+       pic: dominicquijano.jpg
      - name: Linda Clark-Murillo
        pic:
+     - name: Calvin Dixon
+       pic: calvindixon.jpg
+     - name: Christian Pratt
+       pic: christianpratt.jpg
+     - name: Benny De La Rosas
+       pic: bennydelarosa.jpg
   
 - name: Electrical
   members:
      - name: Caroline Dillman
        pic: 
      - name: Axel Ruiz
-       pic:
+       pic: axelruiz.jpg
      - name: Giovanni Angel
        pic:
      - name: Parker Togut
-       pic:
+       pic: parkertogut.jpg
+     - name: Gina Bochicchio
+       pic: ginabochicchio.jpg
+       info: Faculty Assistant
+     - name: Tim Mann
+       pic: timmann.jpg
      
   
