@@ -70,7 +70,7 @@ font-size: 1.25em;
 margin: 0;
 font-weight: 100;
 }
-article .content hr {
+article .content hr, article .content .row.team hr {
 margin: 1.5em auto;
 border: 0;
 width: 30vw;
