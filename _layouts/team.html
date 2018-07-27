@@ -19,6 +19,12 @@ layout: no-sidebar
                     data-src="{{ member.pic }}"
                     alt="{{ member.name }} - {{ team.name }} Team"
                 />
+            {% else %}
+                <img class="member-pic lazy" 
+                    src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                    data-src="/images/team/avatar.png"
+                    alt="{{ member.name }} - {{ team.name }} Team"
+                />
             {% endif %} 
             <h4>{{ member.name }}</h4>
             {% if member.info %}
