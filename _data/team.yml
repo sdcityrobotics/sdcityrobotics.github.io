@@ -4,14 +4,17 @@
        pic: djbrown.jpg
        info: President
      - name: Arnold Suarez
-       pic:
+       pic: arnoldsuarez.jpg
        info: Vice President
      - name: Leila Firestone
-       pic:
+       pic: leilafirestone.jpg
        info: Treasurer
      - name: Matt Bailey
        pic: mattbailey.jpg
        info: Secretary
+     - name: Shane Jost
+       pic: shanejost.jpg
+       info: PR Manager
      - name: Bob Pruitt
        pic: bobpruitt.jpg
        info: Faculty Advisor
@@ -23,21 +26,21 @@
      - name: Jason Plojo
        pic:
      - name: Nikita Bobrov
-       pic:
+       pic: nikitabobrov.jpg
      - name: Edward Richards
-       pic:
+       pic: nedrichards.jpg
 
 - name: Mechanical
   members:
      - name: Dominic Quijano
        pic: dominicquijano.jpg
      - name: Linda Clark-Murillo
-       pic:
+       pic: lindaclarkmurillo.jpg
      - name: Calvin Dixon
        pic: calvindixon.jpg
      - name: Christian Pratt
        pic: christianpratt.jpg
-     - name: Benny De La Rosas
+     - name: Benny De La Rosa
        pic: bennydelarosa.jpg
   
 - name: Electrical
