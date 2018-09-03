@@ -1,6 +1,7 @@
 _site/*
 _theme_packages/*
 images/team/large
+images/large
 
 Thumbs.db
 .DS_Store
