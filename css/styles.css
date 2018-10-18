@@ -13,16 +13,18 @@ overflow-x: hidden;
 }
 
 body {
-font-size: 16px;
+font-size: 20px;
 line-height: 1.8em;
 font-family: 'Roboto', Helvetica, sans-serif;
-font-weight: 100;
+font-weight: 200;
 }
 body, .parallax:not(#banner) .content {
 background-color: #141719;
 color: #eee;
 }
 p {
+font-size: 20px;
+font-weight: 300;
 margin-bottom: 0;
 }
 
@@ -38,7 +40,7 @@ max-width: 100%;
 background-color: #141719 !important;
 color: #eee !important;
 border-radius: 0 !important;
-border-width: 0 !important; 
+border-width: 0 !important;
 }
 .row:not(.sponsors) {
     margin-right: -30px;
@@ -61,14 +63,14 @@ padding: 1.5em;
 }
 
 article .content h1 {
-font-size: 2.4em;
-margin: 0.5em 0;
+font-size: 30px;
+margin: 1em 0em;
 font-weight: 300;
 }
 article .content h2 {
-font-size: 1.25em;
-margin: 0;
-font-weight: 100;
+font-size: 40px;
+margin: 1em 0em;
+font-weight: 400;
 }
 article .content hr, article .content .row.team hr {
 margin: 1.5em auto;
@@ -85,10 +87,12 @@ border-bottom: 4px solid #313862;
 article .content h3 {
 font-size: 1.3em;
 margin: 0;
-font-weight: 400;  
+font-weight: 400;
 }
 article .content p {
 margin: 0 0 1em 0;
+font-weight: 300;
+
 }
 
 a {
@@ -145,16 +149,16 @@ background-color: rgba(34, 39, 41, 0.965);
 
 
 .navbar-nav {
-padding-left: 1rem; 
-padding-right: 1rem; 
+padding-left: 1rem;
+padding-right: 1rem;
 }
 
 footer {
 color: #aaa;
 padding: 2em 0;
 width: 100%;
-height: 10em; 
-line-height: 3em; 
+height: 10em;
+line-height: 3em;
 font-size: 0.8em;
 }
 footer a {
@@ -178,9 +182,9 @@ text-align: center;
     transition: opacity 0.7s ease-in-out;
 }
 
-.parallax { 
-min-height: 100vh; 
-height: 100vh; 
+.parallax {
+min-height: 100vh;
+height: 100vh;
 display: block;
 background-attachment: fixed;
 background-position: center;
@@ -243,7 +247,7 @@ border-color: rgba(34, 39, 41, 0.965) !important;
 -webkit-box-shadow: 0 0 0 50px rgba(34, 39, 41, 0.965) inset !important;
 }
 
-.form-control:-webkit-autofill:hover, 
+.form-control:-webkit-autofill:hover,
 .form-control:-webkit-autofill:focus {
 border-color: #141719 !important;
 -webkit-text-fill-color: #fff !important;
@@ -331,7 +335,7 @@ article .content .post h2.post-meta {
     font-size: 1.25em;
 }
 article .content .blog-posts .post p.post-meta {
-    font-size: 1em;
+    font-size: 2em;
     margin-bottom: 1em;
 }
 #sidebar h3 {
@@ -351,20 +355,18 @@ article .content .blog-posts .post p.post-meta {
 
 .parallax .content p,
 .home div p {
-    margin: 1em 0 1.5em 0;
-    font-size: 0.8em;
+    margin: 1em 0 2.5em 0;
+    font-size: 1.2em;
+    margin-top: 0;
+    line-height: 1.3em;
 }
 
 .home div p {
-    margin-top: 0;
-    line-height: 1.3em;
-    height: 2.6em;
-    padding: 0 1em;
 }
 
 .parallax .content h2,
 .home div h2 {
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
 
 .home div {
@@ -402,7 +404,7 @@ article .content .blog-posts .post p.post-meta {
         margin-top: 0;
         margin-bottom: -5.5em;
     }
-    
+
     .parallax.bottom {
         padding-top: 100vh;
         -webkit-transition: padding-top 0.7s ease-in-out;
@@ -451,8 +453,8 @@ article .content .blog-posts .post p.post-meta {
 
     footer {
         padding: 3em 0;
-        height: 12em; 
-        line-height: 3em; 
+        height: 12em;
+        line-height: 3em;
     }
 
     form {
