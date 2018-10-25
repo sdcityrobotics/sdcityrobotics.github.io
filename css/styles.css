@@ -20,29 +20,38 @@ line-height: 1.8em;
 p {
 font-size: 20px;
 font-weight: 300;
-margin-bottom: 0;
+margin-bottom: 1em;
 }
+
+a {
+color: #08088A;
+}
+
+a:hover {
+color: #610B21;
+}
+
+a:active {
+color: #610B21;
+}
+
 
 h1 {
 font-size: 40px;
-margin: 1em 0em;
+margin-bottom: 1em;
 font-weight: 400;
 }
 
 h2 {
 font-size: 36px;
-margin: 1em 0em;
+margin-bottom: 1em;
 font-weight: 400;
 }
 
 h3 {
-font-size: 1.3em;
-margin: 0;
+font-size: 30px;
+margin-bottom: 1em;
 font-weight: 400;
-}
-
-h4 {
-font-size: 1.1em;
 }
 
 .content {
@@ -84,18 +93,6 @@ max-width: 100%;
 .container-fluid {
 padding-left: 0;
 padding-right: 0;
-}
-
-a {
--webkit-transition: color 0.2s ease-in-out;
-transition: color 0.2s ease-in-out;
-color: #ddd;
-}
-a:hover {
-color: #eee;
-}
-.active {
-color: #fff;
 }
 
 .navbar {
@@ -145,6 +142,7 @@ footer a {
 text-decoration: none;
 color: #ccc;
 }
+
 footer a:hover,
 footer a:active {
 text-decoration: none;
@@ -207,10 +205,6 @@ position: relative;
 top: -2em;
 z-index: 99;
 text-align: center;
-
--webkit-box-shadow: 0px 10px 4px -5px rgba(00,00,00,0.5);
--moz-box-shadow: 0px 10px 4px -5px rgba(00,00,00,0.5);
-box-shadow: 0px 10px 4px -5px rgba(00,00,00,0.5);
 }
 
 .form-control {
@@ -237,8 +231,7 @@ border-color: rgba(34, 39, 41, 0.965) !important;
 -webkit-box-shadow: 0 0 0 50px rgba(34, 39, 41, 0.965) inset !important;
 }
 
-.form-control:-webkit-autofill:hover,
-.form-control:-webkit-autofill:focus {
+.form-control:-webkit-autofill:hover, .form-control:-webkit-autofill:focus {
 border-color: #141719 !important;
 -webkit-text-fill-color: #fff !important;
 -webkit-box-shadow: 0 0 0 50px rgba(34, 39, 41, 0.965) inset !important;
@@ -309,23 +302,6 @@ form {
     margin-right:auto;
 }
 
-article .content .blog-posts h1 {
-    font-size: 1.25em;
-    font-weight: 400;
-}
-article .content .post-meta {
-    color: #999;
-}
-article .content .post h2.post-meta {
-    font-size: 1.25em;
-}
-article .content .blog-posts .post p.post-meta {
-    font-size: 2em;
-    margin-bottom: 1em;
-}
-#sidebar h3 {
-    margin: 0.5em 0;
-}
 
 .sponsors {
     margin-top: 2em;

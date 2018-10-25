@@ -8,4 +8,6 @@ Thumbs.db
 
 .rbenv-version
 .rmvrc
+*.lock
+
 
