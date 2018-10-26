@@ -10,8 +10,8 @@
 - page: Sponsors
   url: /sponsors
 
-- page: Tutorials
-  url: /tutorials
+- page: Code
+  url: /tutorial
 
 - page: Contact
   url: /contact
