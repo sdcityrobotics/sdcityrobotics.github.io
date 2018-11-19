@@ -6,7 +6,7 @@ catagotries: [tutorial, code]
 
 # python tutorial 1
 
-The while loop is a convient way to do the same task over and over again. This
+The while loop is a convenient way to do the same task over and over again. This
 comes up a lot in robotics, where it is often desirable to let something run in
 a tight loop forever. A good example of this is code which interfaces with an
 instrument. In this case, it is common to write code that simply spends all of
@@ -50,13 +50,13 @@ work. This is not always the case, and sometimes getting imports to work is a
 real challenge :)
 
 The time module has within it a number of functions that relate to computer
-time. The relevent functions are [time](https://docs.python.org/3/library/time.html?highlight=time#time.time)
+time. The relevant functions are [time](https://docs.python.org/3/library/time.html?highlight=time#time.time)
 and [sleep](https://docs.python.org/3/library/time.html?highlight=time#time.sleep).
-Though a bit wierd perhaps, it is not uncommon in python for a word to be
+Though a bit weird perhaps, it is not uncommon in python for a word to be
 repeated twice with a period in between, as in line 3.
 
 The [while](https://docs.python.org/3/reference/compound_stmts.html#while)
-loop begins on line 5. A particular charactoristic of python appears in
+loop begins on line 5. A particular characteristic of python appears in
 this statement. Code blocks which can extend for an arbitrary number of lines
 are first ended with the colon character. The code associated with this code
 block (in this case a while loop) is then indicated by *indentation*. All
@@ -65,13 +65,13 @@ loop are a part of the while loop.
 
 The [print](https://docs.python.org/3/library/functions.html#print) function
 is how the information moves from inside the program to the computer screen.
-This is a relativly complicated issue in general for robotics, where
+This is a relatively complicated issue in general for robotics, where
 information is moved between many programs frequently. In this example the
 simplest method is used, simply printing the information to the terminal. More
 complicated information transfer is a topic for a later tutorial, but the print
 function is a frequently used first step to understanding a new output.
 
-The print line uses [sting formating](https://docs.python.org/3/library/stdtypes.html#string-formatting)
+The print line uses [sting formatting](https://docs.python.org/3/library/stdtypes.html#string-formatting)
 to insert a variable into the printed statement. It is possible to simply print
 the variable by itself as
 
@@ -80,18 +80,18 @@ print(currenttime)
 {% endhighlight %}
 
 This is often simpler to code, but the output is harder to read. Reviewing the
-documentation the % character is discuraged, but force of habit is hard to break.
+documentation the % character is discouraged, but force of habit is hard to break.
 
 
 
 The last line of the while loop is a sleep statement. This is used to free up
-the cpu for 1/10 of a second, a long time to a computer. Like the
-print statement, the sleep statement is a simple approch to a complicated
+the CPU for 1/10 of a second, a long time to a computer. Like the
+print statement, the sleep statement is a simple approach to a complicated
 topic, in this case [process](https://en.wikipedia.org/wiki/Process_(computing))
-managment. This method will be extensivly
+management. This method will be extensively
 used in the robot and covered further in future tutorials. This design decision
-is essentally equivalent to the statement *Nothing needs to be
-adressed within 1/10 of a second*.
+is essentially equivalent to the statement *Nothing needs to be
+addressed within 1/10 of a second*.
 
 ---
 
@@ -131,7 +131,7 @@ this behavior.
 
 The timeout behavior takes place on line 14, which checks the current time and
 exits if it has been more than 3 seconds from the start of the loop. The loop
-is then immediatly terminated with the break statement. The if loop, and the
+is then immediately terminated with the break statement. The if loop, and the
 break statement are examples of [flow control](https://docs.python.org/3.7/tutorial/controlflow.html?highlight=break).
 
 The last action of this code is to print the line "Goodbye World". This shows
