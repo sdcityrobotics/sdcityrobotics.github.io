@@ -8,3 +8,6 @@ email: sdcrobotics@gmail.com
 permalink: /news/:title
 excerpt_separator: <!--more-->
 markdown: kramdown
+
+plugins:
+  - jekyll-toc

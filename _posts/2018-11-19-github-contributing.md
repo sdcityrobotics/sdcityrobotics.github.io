@@ -1,6 +1,7 @@
 ---
-layout: posts
+layout: content
 title: "Contributing using github"
+toc: true
 catagotries: [tutorial, code]
 ---
 
@@ -47,6 +48,7 @@ git remote add upstream git@github.com:sdcityrobotics/sdcityrobotics.github.io.g
 git remote -v
 ```
 
+.. _keep-fresh
 ## Keeping your fork up to date
 
 Before doing anything with your fork, it is important to make sure that it is up-to date. This is done by fetching from the upstream repository
@@ -72,11 +74,11 @@ From [Chaser324 guide](https://gist.github.com/Chaser324/ce0505fbed06b947d962):
 - Check out a branch:
 
 ```
-git -b checkout BRANCH_NAME upstream/master
+git checkout -b BRANCH_NAME upstream/master
 git push --set-upstream origin BRANCH_NAME
 ```
 
-It is really important to remember to work on the latest code (fetch from upstream) and create a branch before programming.
+It is really important to remember to work on the latest code, see :ref:`keep-fresh`.
 
 ## Hacking time
 

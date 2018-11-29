@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: "Robotics while loop"
+toc: true
 catagotries: [tutorial, code]
 ---
 

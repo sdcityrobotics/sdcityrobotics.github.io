@@ -1,17 +1,7 @@
 ---
 layout: content
 ---
-
-<div class="row">
-    <div class="col-12">
-
-        {% if page.id %}
-            <div class="post-content" itemprop="articleBody">
-                {{ content }}
-            </div>
-        {% else %}
-            {{ content }}
-        {% endif %}
-
-    </div>
-</div>
+<article class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  {{ content }}
+</article>

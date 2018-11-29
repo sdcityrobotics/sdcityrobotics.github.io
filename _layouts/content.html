@@ -8,29 +8,20 @@ layout: default
 		<div></div>
 	</div>
 {% endif %}
-<article>	
+<article>
 	<div class="content">
 		{% if page.id %}
-
 			<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
 				<h1 class="text-center post-title" itemprop="name headline">{{ page.title }}</h1>
-				<h2 class="post-meta text-center">
-					<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
-				</h2>
-				<hr/>
-
-				{{ content }}
+				{{ content | toc}}
 			</article>
-
 		{% else %}
-
 			<h1 class="text-center">{{ page.title }}</h1>
 				{% if page.subtitle %}
 				<h2 class="text-center">{{ page.subtitle }}</h2>
 				{% endif %}
 			<hr/>
-			{{ content }}
+			{{ content | toc}}
 
 		{% endif %}
 	</div>
