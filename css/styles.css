@@ -91,6 +91,9 @@ font-weight: 400;
 article .content p {
 margin: 0 0 1em 0;
 }
+article.tutorial {
+    border-top: 4px solid #313862;
+}
 
 a {
 -webkit-transition: color 0.2s ease-in-out;
