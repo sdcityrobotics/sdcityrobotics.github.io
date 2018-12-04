@@ -17,7 +17,7 @@ body {
 font-size: 16px;
 line-height: 1.8em;
 font-family: 'Roboto', Helvetica, sans-serif;
-font-weight: 100;
+font-weight: 300;
 }
 body, .parallax:not(#banner) .content {
 background-color: #141719;
@@ -62,14 +62,16 @@ padding: 1.5em;
 }
 
 article .content h1 {
-font-size: 2.4em;
+font-size: 2em;
 margin: 0.5em 0;
 font-weight: 300;
 }
 article .content h2 {
 font-size: 1.25em;
 margin: 0;
-font-weight: 100;
+}
+article .content > h2 {
+font-weight: 300;
 }
 article .content hr, article .content .row.team hr {
 margin: 1.5em auto;
@@ -90,6 +92,7 @@ font-weight: 400;
 }
 article .content p {
 margin: 0 0 1em 0;
+color: #ababab;
 }
 article.tutorial {
     border-top: 4px solid #313862;
@@ -436,7 +439,7 @@ article .content .blog-posts .post p.post-meta {
     }
 
     article .content h1 {
-        font-size: 2.4em;
+        font-size: 2em;
         margin: 0.5em 0;
     }
     article .content h2 {
