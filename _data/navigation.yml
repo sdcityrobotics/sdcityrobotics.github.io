@@ -1,6 +1,6 @@
 - page: Home
   url: /
-  
+
 - page: About
   url: /about
 
@@ -10,8 +10,8 @@
 - page: Sponsors
   url: /sponsors
 
-#- page: News
-#  url: /news
+- page: Code
+  url: /tutorial
 
 - page: Contact
   url: /contact
