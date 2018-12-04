@@ -5,6 +5,9 @@ keywords: san diego, robotics, robosub, san diego city college, robotics team
 currentlocation: San Diego City Robotics Club, 1313 Park Blvd, San Diego, CA 92101
 email: sdcrobotics@gmail.com
 
-permalink: /news/:title
+permalink: /blog/:title
 excerpt_separator: <!--more-->
 markdown: kramdown
+
+collections:
+  - tutorials

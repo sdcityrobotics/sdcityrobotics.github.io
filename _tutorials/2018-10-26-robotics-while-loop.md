@@ -1,11 +1,9 @@
 ---
-layout: posts
-title: "Robotics while loop"
-toc: true
-catagotries: [tutorial, code]
 ---
 
-# python tutorial 1
+# Python Tutorial 1
+
+## Robotics while loop
 
 The while loop is a convenient way to do the same task over and over again. This
 comes up a lot in robotics, where it is often desirable to let something run in

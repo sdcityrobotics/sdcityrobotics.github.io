@@ -1,6 +1,6 @@
 $("#js-topics").on("click", "a", function(){
     var topic = $(this).attr('data-topic');
-    history.pushState(null, null, "/news/#" + topic);
+    history.pushState(null, null, "/tutorials/#" + topic);
     showTopic(topic);
 });
 

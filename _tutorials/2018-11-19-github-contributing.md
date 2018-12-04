@@ -1,15 +1,15 @@
 ---
-layout: content
-title: "Contributing using github"
-toc: true
-catagotries: [tutorial, code]
 ---
+
+# Contributing using GitHub
 
 In order to contribute to Zoidberg code it is first necessary to get a Github account. This is simple to do at [Github](http://github.com/). This tutorial covers version control using the program git, which is a command line tool. There are other tools to to do the same thing which use a GUI, but they may use other workflows which could mess up the repository.
 
 ## Fork and Pull workflow
 
 To get a better understanding of Git and the process we'll be using, check out these guides on the Fork and Pull workflow.
+
+<!--more-->
 
 - [general GitHub guides](https://guides.github.com/)
 - [a good rundown on the Fork and Pull workflow](https://gist.github.com/Chaser324/ce0505fbed06b947d962). This is the source of much of the information on this page.
