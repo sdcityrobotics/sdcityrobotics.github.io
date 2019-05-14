@@ -3,8 +3,8 @@ layout: default
 ---
 
 <!-- Main -->
-<iframe id="map" class='map' frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=San%20Diego%20City%20College&key=AIzaSyA0mVMdi_kG4YaPCJ0OzC6KeqqgW-IbNCI&zoom=13" allowfullscreen></iframe>
-<article>
+<iframe id="map" frameborder="0" style="border:0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=San%20Diego%20City%20College&key=AIzaSyA0mVMdi_kG4YaPCJ0OzC6KeqqgW-IbNCI&zoom=13" allowfullscreen></iframe>
+<article>	
 	<div class="content">
         <h1 class="text-center">{{ page.title }}</h1>
         {% if page.subtitle %}
@@ -31,7 +31,7 @@ layout: default
                         <textarea class="form-control" name="message" placeholder="Message" rows="5" required></textarea>
                     </div>
                     <input type="text" name="_gotcha" style="display:none" />
-                    <button type="submit" class="btn btn-lg btn-outline-dark">Submit</button>
+                    <button type="submit" class="btn btn-lg btn-outline-light">Submit</button>
                 </form>
             </div>
             <div class="col-12 col-md-4">
@@ -47,7 +47,7 @@ layout: default
         var form = $('#contact').serialize();
 
         $.ajax({
-            url: "https://formspree.io/{{ site.email }}",
+            url: "https://formspree.io/{{ site.email }}", 
             method: "POST",
             data: form,
             dataType: "json"

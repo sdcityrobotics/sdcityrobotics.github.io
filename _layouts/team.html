@@ -15,21 +15,24 @@ layout: no-sidebar
     {% for member in team.members %}
         <div class="col-12 col-md-4 col-lg-3 member-info text-center">
             {% if member.pic %}
-                <img class="member-pic"
-                    src="/images/team/{{ member.pic }}"
+                <img class="member-pic lazy" 
+                    src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                    data-src="/images/team/{{ member.pic }}"
                     alt="{{ member.name }} - {{ team.name }} Team"
                 />
             {% else %}
-                <img class="member-pic"
-                    src="/images/team/avatar.png"
+                <img class="member-pic lazy" 
+                    src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                    data-src="/images/team/avatar.png"
                     alt="{{ member.name }} - {{ team.name }} Team"
                 />
-            {% endif %}
+            {% endif %} 
             <h4>{{ member.name }}</h4>
             {% if member.info %}
                 <p>{{ member.info }}</p>
             {% endif %}
         </div>
     {% endfor %}
+    
 </div>
 {% endfor %}
