@@ -1,0 +1,1 @@
+This is the folder to save the pictures of the 2018-19 robotics team. All images from /images/team will be copied over here and the pictures of the 2019-20 member will be added to the current /team folder that is actually used on the webpage.
