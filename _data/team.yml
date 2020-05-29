@@ -4,7 +4,7 @@
        pic:
        info: President
      - name:
-       pic: arnoldsuarez.jpg
+       pic: 
        info: Connan
      - name: Gina
        pic:
@@ -12,18 +12,18 @@
 
 - name: Software
   members:
-     - name: NA
+     - name: Tomás
        pic:
 
 
 - name: Mechanical
   members:
-     - name: NA
+     - name:
        pic:
 
 
 - name: Electrical
   members:
-     - name: NA
+     - name:
        pic:
 
